@@ -1,0 +1,22 @@
+header {
+    background-color: darkorange;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    float: left;
+    width: 20%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    color: cornflowerblue;
+}
