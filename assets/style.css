@@ -1,5 +1,13 @@
-section {
-    height: 100vh;
+html {
+    scroll-behavior: smooth;
+}
+
+.section-statement {
+    text-align: center;
+}
+
+.page-section {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
