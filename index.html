@@ -76,11 +76,11 @@
             <!-- List of soft skills that differentiate you from others -->
             <!-- A link to your resume -->
             <h1>About</h1>
-            <h2>Who am I?</h2>
             <p class="section-statement">
                 A resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
             </p>
             <a href="#">Resume</a>
+
         </section>
 
         <section id="portfolio-section" class="page-section">
@@ -90,7 +90,7 @@
             <!-- A sub-page with technical details for each project -->
             <!-- Note: You can also provide high-level information about the project without users having to navigate to a new page. You can use a hovering feature or meaningful caption to accomplish this. -->
             <h1>Portfolio</h1>
-            <div class="row" id="portfolio-div">
+            <div id="portfolio-div" class="row">
 
                 <!-- weather dashboard project -->
                 <div class="project-div col-md-6" id="weather-project">
@@ -123,26 +123,38 @@
                     </a>
                     <img class="project-image" src="https://github.com/lionhatt/project-WeatherWear/blob/master/Assets/img/screenshots/weather-wear-screenshot-1.png?raw=true" alt="weather-wear-image">
                 </div>
+
+                <!-- <section> -->
+                <!-- Projects -->
+                <!-- A link to the deployed project (where applicable) -->
+                <!-- Multiple images of the project -->
+                <!-- What makes the project interesting technically -->
+                <!-- Brief description of the project -->
+                <!-- A list of languages used in the application -->
+                <!-- </section> -->
             </div>
 
-            <!-- <section> -->
-            <!-- Projects -->
-            <!-- A link to the deployed project (where applicable) -->
-            <!-- Multiple images of the project -->
-            <!-- What makes the project interesting technically -->
-            <!-- Brief description of the project -->
-            <!-- A list of languages used in the application -->
-            <!-- </section> -->
         </section>
 
         <section id="contact-section" class="page-section">
             <!-- Contact -->
             <!-- Set up email messaging form -->
             <h1>Contact</h1>
-            <p>
-                Praesent elementum maximus rhoncus. Donec a lorem interdum, bibendum nisi sed, lobortis nulla. Ut molestie, risus eu elementum facilisis, quam massa iaculis ex, id pulvinar leo orci ut elit. Morbi pharetra nulla ac est luctus posuere. Vestibulum elit
-                ipsum, facilisis sit amet congue et, consequat eget lorem. Donec vehicula ullamcorper velit id rutrum. Sed sagittis semper quam, sit amet porttitor leo fringilla eu.
-            </p>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <label for="name"> Name:</label><br>
+                <input type="text" name="name"><br>
+
+                <label for="mail">E-mail:</label><br>
+                <input type="text" name="mail"><br>
+
+                <label for="comment">Comment:</label><br>
+                <textarea name="comment" id="" cols="60" rows="10"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
         </section>
 
     </main>
