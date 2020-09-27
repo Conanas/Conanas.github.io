@@ -1,1 +1,0 @@
-$(".project-image").on("click", showModal);
