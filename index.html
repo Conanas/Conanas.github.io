@@ -100,7 +100,7 @@
                         <a href="https://conanas.github.io/weather-dashboard/" target="_blank">
                             <h3>Weather Dashboard</h3>
                         </a>
-                        <img class="project-image" id="weather-dashboard-image" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
+                        <img class="project-image" id="weather-dashboard-image" data-toggle="modal" data-target="#myModal" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
                     </div>
 
                     <!-- work day scheduler project -->
@@ -108,7 +108,7 @@
                         <a href="https://conanas.github.io/work-day-scheduler/" target="_blank">
                             <h3>Work Day Scheduler</h3>
                         </a>
-                        <img class="project-image" id="work-scheduler-image" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
+                        <img class="project-image" id="work-scheduler-image" data-toggle="modal" data-target="#myModal" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
                     </div>
 
                     <!-- toby time project -->
@@ -116,7 +116,7 @@
                         <a href="https://conanas.github.io/toby-time/" target="_blank">
                             <h3>Toby Time</h3>
                         </a>
-                        <img class="project-image" id="toby-time-image" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
+                        <img class="project-image" id="toby-time-image" data-toggle="modal" data-target="#myModal" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
                     </div>
 
                     <!-- weatherwear project -->
@@ -124,7 +124,7 @@
                         <a href="https://lionhatt.github.io/project-WeatherWear/" target="_blank">
                             <h3>WeatherWear</h3>
                         </a>
-                        <img class="project-image" id="weather-wear-image" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
+                        <img class="project-image" id="weather-wear-image" data-toggle="modal" data-target="#myModal" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
                     </div>
 
                     <!-- <section> -->
@@ -160,6 +160,27 @@
                     <input type="reset" value="Reset">
                 </form>
             </section>
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     </main>
