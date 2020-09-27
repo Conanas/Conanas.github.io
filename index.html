@@ -17,29 +17,30 @@
 <body>
 
     <header class="container">
+        <div class="row">
+            <section id="home-section" class="page-section col">
 
-        <section id="home-section" class="page-section">
-            <h1>Tom Haigh Portfolio Page</h1>
+                <h1>Tom Haigh Portfolio Page</h1>
 
-            <label id="phone-number" class="phone-number">Phone: <span>0406 253 030</span></label>
-            <label id="email-address" class="email-address">Email: <span>tmhaigh@gmail.com</span></label>
+                <label id="phone-number" class="phone-number">Phone: <span>0406 253 030</span></label>
+                <label id="email-address" class="email-address">Email: <span>tmhaigh@gmail.com</span></label>
 
-            <div>
-                <a href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/">LinkedIn</a>
-                <a href="https://github.com/Conanas">gitHub</a>
-            </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/">LinkedIn</a>
+                    <a href="https://github.com/Conanas">gitHub</a>
+                </div>
 
-            <label>Location: Melbourne, Victoria, Australia</label>
+                <label>Location: Melbourne, Victoria, Australia</label>
 
-            <p id="brand-statement" class="section-statement">
-                Full-stack web developer with JavaScript, HTML, CSS, React.js, MySQL, PHP, Web API and responsive web design skills dedicated to making the web a more accessible and user friendly experience. Projects include a Weather Dashboard, a Work Day Scheduler,
-                a workout timer and a web app that helps you decide what to wear when heading out.
-            </p>
+                <p id="brand-statement" class="section-statement">
+                    Full-stack web developer with JavaScript, HTML, CSS, React.js, MySQL, PHP, Web API and responsive web design skills dedicated to making the web a more accessible and user friendly experience. Projects include a Weather Dashboard, a Work Day Scheduler,
+                    a workout timer and a web app that helps you decide what to wear when heading out.
+                </p>
 
-            <a href="#about-section">View my Portfolio</a>
+                <a href="#about-section">View my Portfolio</a>
 
-        </section>
-
+            </section>
+        </div>
     </header>
 
     <nav class="navbar sticky-top navbar-expand bg-dark navbar-dark">
@@ -70,92 +71,96 @@
 
     <main class="container">
 
-        <section id="about-section" class="page-section">
-            <!-- About -->
-            <!-- Who am I? -->
-            <!-- List of soft skills that differentiate you from others -->
-            <!-- A link to your resume -->
-            <h1>About</h1>
-            <p class="section-statement">
-                A resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
-            </p>
-            <a href="#">Resume</a>
+        <div class="row">
+            <section id="about-section" class="page-section col">
+                <!-- About -->
+                <!-- Who am I? -->
+                <!-- List of soft skills that differentiate you from others -->
+                <!-- A link to your resume -->
+                <h1>About</h1>
+                <p class="section-statement">
+                    A resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
+                </p>
+                <a href="#">Resume</a>
+            </section>
+        </div>
 
-        </section>
+        <div class="row">
+            <section id="portfolio-section" class="page-section col">
+                <!-- Portfolio -->
+                <!-- A picture (or even better, a gif) for each project -->
+                <!-- A live link to the project -->
+                <!-- A sub-page with technical details for each project -->
+                <!-- Note: You can also provide high-level information about the project without users having to navigate to a new page. You can use a hovering feature or meaningful caption to accomplish this. -->
+                <h1>Portfolio</h1>
+                <div id="portfolio-div" class="row">
 
-        <section id="portfolio-section" class="page-section">
-            <!-- Portfolio -->
-            <!-- A picture (or even better, a gif) for each project -->
-            <!-- A live link to the project -->
-            <!-- A sub-page with technical details for each project -->
-            <!-- Note: You can also provide high-level information about the project without users having to navigate to a new page. You can use a hovering feature or meaningful caption to accomplish this. -->
-            <h1>Portfolio</h1>
-            <div id="portfolio-div" class="row">
+                    <!-- weather dashboard project -->
+                    <div class="project-div col" id="weather-project">
+                        <a href="https://conanas.github.io/weather-dashboard/" target="_blank">
+                            <h3>Weather Dashboard</h3>
+                        </a>
+                        <img class="project-image" id="weather-dashboard-image" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
+                    </div>
 
-                <!-- weather dashboard project -->
-                <div class="project-div col-md-6" id="weather-project">
-                    <a href="https://conanas.github.io/weather-dashboard/">
-                        <h3>Weather Dashboard</h3>
-                    </a>
-                    <img class="project-image" src="https://github.com/Conanas/weather-dashboard/blob/master/screenshots/weather-dashboard-screenshot.png?raw=true" alt="weather-dashboard-image">
+                    <!-- work day scheduler project -->
+                    <div class="project-div col" id="scheduler-project">
+                        <a href="https://conanas.github.io/work-day-scheduler/" target="_blank">
+                            <h3>Work Day Scheduler</h3>
+                        </a>
+                        <img class="project-image" id="work-scheduler-image" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
+                    </div>
+
+                    <!-- toby time project -->
+                    <div class="project-div col" id="toby-project">
+                        <a href="https://conanas.github.io/toby-time/" target="_blank">
+                            <h3>Toby Time</h3>
+                        </a>
+                        <img class="project-image" id="toby-time-image" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
+                    </div>
+
+                    <!-- weatherwear project -->
+                    <div class="project-div col" id="weather-wear-project">
+                        <a href="https://lionhatt.github.io/project-WeatherWear/" target="_blank">
+                            <h3>WeatherWear</h3>
+                        </a>
+                        <img class="project-image" id="weather-wear-image" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
+                    </div>
+
+                    <!-- <section> -->
+                    <!-- Projects -->
+                    <!-- A link to the deployed project (where applicable) -->
+                    <!-- Multiple images of the project -->
+                    <!-- What makes the project interesting technically -->
+                    <!-- Brief description of the project -->
+                    <!-- A list of languages used in the application -->
+                    <!-- </section> -->
                 </div>
+            </section>
+        </div>
 
-                <!-- work day scheduler project -->
-                <div class="project-div col-md-6" id="scheduler-project">
-                    <a href="https://conanas.github.io/work-day-scheduler/">
-                        <h3>Work Day Scheduler</h3>
-                    </a>
-                    <img class="project-image" src="https://github.com/Conanas/work-day-scheduler/blob/master/screenshots/work-day-scheduler-screenshot.png?raw=true" alt="work-day-scheduler-image">
-                </div>
+        <div class="row">
+            <section id="contact-section" class="page-section col">
+                <!-- Contact -->
+                <!-- Set up email messaging form -->
+                <h1>Contact</h1>
+                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                    <label for="name"> Name:</label><br>
+                    <input type="text" name="name"><br>
 
-                <!-- toby time project -->
-                <div class="project-div col-md-6" id="toby-project">
-                    <a href="https://conanas.github.io/toby-time/">
-                        <h3>Toby Time</h3>
-                    </a>
-                    <img class="project-image" src="https://github.com/Conanas/toby-time/blob/master/assets/images/screenshots/countdown-screen.png?raw=true" alt="toby-time-image">
-                </div>
+                    <label for="mail">E-mail:</label><br>
+                    <input type="text" name="mail"><br>
 
-                <!-- weatherwear project -->
-                <div class="project-div col-md-6" id="weather-wear-project">
-                    <a href="https://lionhatt.github.io/project-WeatherWear/">
-                        <h3>WeatherWear</h3>
-                    </a>
-                    <img class="project-image" src="https://github.com/lionhatt/project-WeatherWear/blob/master/Assets/img/screenshots/weather-wear-screenshot-1.png?raw=true" alt="weather-wear-image">
-                </div>
+                    <label for="comment">Comment:</label><br>
+                    <textarea name="comment" id="contact-textarea" rows="10"></textarea>
 
-                <!-- <section> -->
-                <!-- Projects -->
-                <!-- A link to the deployed project (where applicable) -->
-                <!-- Multiple images of the project -->
-                <!-- What makes the project interesting technically -->
-                <!-- Brief description of the project -->
-                <!-- A list of languages used in the application -->
-                <!-- </section> -->
-            </div>
+                    <br><br>
 
-        </section>
-
-        <section id="contact-section" class="page-section">
-            <!-- Contact -->
-            <!-- Set up email messaging form -->
-            <h1>Contact</h1>
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                <label for="name"> Name:</label><br>
-                <input type="text" name="name"><br>
-
-                <label for="mail">E-mail:</label><br>
-                <input type="text" name="mail"><br>
-
-                <label for="comment">Comment:</label><br>
-                <textarea name="comment" id="" cols="60" rows="10"></textarea>
-
-                <br><br>
-
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset">
-            </form>
-        </section>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </section>
+        </div>
 
     </main>
 
