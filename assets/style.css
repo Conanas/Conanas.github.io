@@ -2,10 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.section-statement {
-    text-align: center;
-}
-
 .page-section {
     min-height: 100vh;
     display: flex;
@@ -14,9 +10,18 @@ html {
     align-items: center;
 }
 
+#home-section h1 {
+    text-align: center;
+}
+
+.section-statement {
+    text-align: center;
+}
+
 #portfolio-div {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 
 .project-div {
@@ -26,6 +31,13 @@ html {
 }
 
 .project-image {
-    width: 50%;
-    height: 200px;
+    width: 200px;
+}
+
+#contact-section form {
+    width: 100%;
+}
+
+#contact-textarea {
+    width: 100%;
 }
