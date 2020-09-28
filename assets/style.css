@@ -3,11 +3,18 @@ html {
 }
 
 .page-section {
+    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.target-anchor {
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 #home-section h1 {
@@ -45,4 +52,12 @@ html {
 
 #contact-textarea {
     width: 100%;
+}
+
+@media screen and (max-width: 476px) {
+    .target-anchor {
+        position: absolute;
+        left: 0px;
+        top: -56px;
+    }
 }
