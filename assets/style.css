@@ -30,6 +30,11 @@ html {
     align-items: center;
 }
 
+.project-div h3 {
+    height: 70px;
+    text-align: center;
+}
+
 .project-image {
     width: 200px;
 }
