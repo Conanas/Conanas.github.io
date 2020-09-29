@@ -101,28 +101,28 @@
                     <div class="project-div col" id="weather-project">
                         <h3>Weather Dashboard</h3>
                         <img class="project-image" id="weather-dashboard-image" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
-                        <button id="weather-dashboard-button" class="project-button" data-toggle="modal" data-target="#myModal">Project Info</button>
+                        <button id="weather-dashboard-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
                     </div>
 
                     <!-- work day scheduler project -->
                     <div class="project-div col" id="scheduler-project">
                         <h3>Work Day Scheduler</h3>
                         <img class="project-image" id="work-scheduler-image" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
-                        <button id="work-scheduler-button" class="project-button" data-toggle="modal" data-target="#myModal">Project Info</button>
+                        <button id="work-scheduler-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
                     </div>
 
                     <!-- toby time project -->
                     <div class="project-div col" id="toby-project">
                         <h3>Toby Time</h3>
                         <img class="project-image" id="toby-time-image" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
-                        <button id="toby-time-button" class="project-button" data-toggle="modal" data-target="#myModal">Project Info</button>
+                        <button id="toby-time-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
                     </div>
 
                     <!-- weatherwear project -->
                     <div class="project-div col" id="weather-wear-project">
                         <h3>WeatherWear</h3>
                         <img class="project-image" id="weather-wear-image" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
-                        <button id="weather-wear-button" class="project-button" data-toggle="modal" data-target="#myModal">Project Info</button>
+                        <button id="weather-wear-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
                     </div>
 
                 </div>
@@ -169,7 +169,7 @@
     </footer>
 
     <!-- Modal -->
-    <div id="myModal" class="modal fade" role="dialog">
+    <div id="project-modal" class="modal fade" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
@@ -181,11 +181,11 @@
                 <div class="modal-body">
 
                     <!-- carousel -->
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div id="project-carousel" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#project-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#project-carousel" data-slide-to="1"></li>
+                            <li data-target="#project-carousel" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -198,11 +198,11 @@
                                 <img id="carousel-image-3" src="" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#project-carousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#project-carousel" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -213,10 +213,14 @@
                     <!-- What makes the project interesting technically -->
                     <!-- Brief description of the project -->
                     <!-- A list of languages used in the application -->
-                    <p>Some text in the modal.</p>
+                    <div id="project-description">
+
+                    </div>
+                    <a id="live-link" href="" target="_blank">View Live Project</a>
+                    <br>
+                    <a id="github-link" href="" target="_blank">View GitHub Repository</a>
                 </div>
                 <div class="modal-footer">
-                    <a href="" target="_blank">View Live Project</a>
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
