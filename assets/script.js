@@ -8,8 +8,9 @@ var modalTitle = $(".modal-title");
 var carouselImage1 = $("#carousel-image-1");
 var carouselImage2 = $("#carousel-image-2");
 var carouselImage3 = $("#carousel-image-3");
-var modalBodyText = $(".modal-body p");
-var modalFooterLink = $(".modal-footer a");
+var modalBodyText = $("#project-description");
+var liveLink = $("#live-link");
+var githubLink = $("#github-link");
 
 function loadWeatherDashboardProject() {
     modalTitle.text("Weather Dashboard");
@@ -30,6 +31,8 @@ function loadWeatherDashboardProject() {
     // Brief description of the project
     // A list of languages used in the application
     modalBodyText.html(
+        "<h5>Description</h5>" +
+
         "<p>" +
 
         "Planning a round the world trip? Then this web app helps you plan that trip by giving you a " +
@@ -54,11 +57,15 @@ function loadWeatherDashboardProject() {
         "<li>Bootstrap</il>" +
         "<li>javaScript</il>" +
         "<li>jQuery</il>" +
-        "<li>Third Party Web API's</il>" +
+        "<li>Third Party Web API</il>" +
+        "<ul>" +
+        "<li>openweathermap.org</il>" +
+        "</ul>" +
         "</ul>"
 
     );
-    modalFooterLink.attr("href", "https://conanas.github.io/weather-dashboard/");
+    liveLink.attr("href", "https://conanas.github.io/weather-dashboard/");
+    githubLink.attr("href", "https://github.com/Conanas/weather-dashboard");
 }
 
 function loadWorkSchedulerProject() {
@@ -76,6 +83,8 @@ function loadWorkSchedulerProject() {
         alt: "work-scheduler-items-added - copy"
     });
     modalBodyText.html(
+        "<h5>Description</h5>" +
+
         "<p>" +
 
         "Need to organise your work day? This web app makes planning your work day easy. Start your day with an empty " +
@@ -102,7 +111,8 @@ function loadWorkSchedulerProject() {
         "<li>moment.js</il>" +
         "</ul>"
     );
-    modalFooterLink.attr("href", "https://conanas.github.io/work-day-scheduler/");
+    liveLink.attr("href", "https://conanas.github.io/work-day-scheduler/");
+    githubLink.attr("href", "https://github.com/Conanas/work-day-scheduler");
 }
 
 function loadTobyTimeProject() {
@@ -120,14 +130,19 @@ function loadTobyTimeProject() {
         alt: "toby-screenshots-face"
     });
     modalBodyText.html(
+        "<h5>Description</h5>" +
+
         "<p>" +
 
-        "" +
+        "Like to workout? Like Cats? Toby Time is a set and rep tracker for your workouts and upon completion you are rewarded " +
+        "with a picture of my cat Toby. Simply enter the reps, rest time, sets and break time and start doing your pressups, pullups " +
+        "or situps etc... You can save your workouts parameters to local storage to be reloaded for future use." +
 
         "</p>" +
         "<p>" +
 
-        "" +
+        "Fully responsive with the use of bootstrap, a single html page is styled with CSS and rendered with javaScript and jQuery. " +
+        "Includes the use of sounds to indicate when the rest or break period is about to end." +
 
         "</p>" +
 
@@ -141,7 +156,8 @@ function loadTobyTimeProject() {
         "<li>jQuery</il>" +
         "</ul>"
     );
-    modalFooterLink.attr("href", "https://conanas.github.io/toby-time/");
+    liveLink.attr("href", "https://conanas.github.io/toby-time/");
+    githubLink.attr("href", "https://github.com/Conanas/toby-time");
 }
 
 function loadWeatherWearProject() {
@@ -159,27 +175,39 @@ function loadWeatherWearProject() {
         alt: "weather-wear-welcom-screen"
     });
     modalBodyText.html(
+        "<h5>Description</h5>" +
+
         "<p>" +
 
-        "" +
+        "WeatherWear is a single paged, fully responsive javaScript and jQuery rendered html web app styled with CSS that aids " +
+        "users plan what to wear depending on the weather forecast for a user selected time range. The user is presented " +
+        "with going out and coming home times that are generated live with the use of moment.js. After the location and times are selected " +
+        "WeatherWear will show the user what they are suggested to wear based on the current temperature, uv index and wind speed." +
 
         "</p>" +
         "<p>" +
 
-        "" +
+        "As well as suggesting what users should wear WeatherWear has functionality for users to look up local places to eat whilst they are out. " +
+        "The generated places-to-eat list can be filtered by cuisine type and sorted by rating and by price." +
 
         "</p>" +
 
-        "<h4>Technologies used</h4>" +
+        "<h5>Technologies used</h5>" +
 
         "<ul>" +
         "<li>html</il>" +
         "<li>css</il>" +
-        "<li>Bootstrap</il>" +
+        "<li>Materialize</il>" +
         "<li>javaScript</il>" +
         "<li>jQuery</il>" +
         "<li>moment.js</il>" +
+        "<li>Third Party API's</il>" +
+        "<ul>" +
+        "<li>weatherbit.io</il>" +
+        "<li>zomato.com</il>" +
+        "</ul>" +
         "</ul>"
     );
-    modalFooterLink.attr("href", "https://lionhatt.github.io/project-WeatherWear/");
+    liveLink.attr("href", "https://lionhatt.github.io/project-WeatherWear/");
+    githubLink.attr("href", "https://github.com/lionhatt/project-WeatherWear");
 }
