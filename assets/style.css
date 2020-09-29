@@ -1,4 +1,5 @@
 :root {
+    /* teal color theme */
     --lightest: #c4fff9;
     --light: #9ceaef;
     --mid: #68d8d6;
@@ -14,6 +15,29 @@
     --contact-color: var(--darkest);
     --footer-bg: var(--darkest);
     --footer-color: var(--lightest);
+    /* projects */
+    --weather-dash-bg: var(--light);
+    --weather-dash-color: var(--darkest);
+    --scheduler-bg: var(--dark);
+    --scheduler-color: var(--lightest);
+    --toby-time-bg: var(--light);
+    --toby-time-color: var(--darkest);
+    --weather-wear-bg: var(--dark);
+    --weather-wear-color: var(--lightest);
+    /* project buttons */
+    --weather-dashboard-button-bg: var(--dark);
+    --weather-dashboard-button-color: var(--lightest);
+    --weather-dashboard-button-border: var(--lightest);
+    --work-scheduler-button-bg: var(--light);
+    --work-scheduler-button-color: var(--darkest);
+    --work-scheduler-button-border: var(--darkest);
+    --toby-time-button-bg: var(--dark);
+    --toby-time-button-color: var(--lightest);
+    --toby-time-button-border: var(--lightest);
+    --weather-wear-button-bg: var(--light);
+    --weather-wear-button-color: var(--darkest);
+    --weather-wear-button-border: var(--darkest);
+    /* contact buttons */
 }
 
 html {
@@ -82,6 +106,27 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1em;
+}
+
+#weather-project {
+    background-color: var(--weather-dash-bg);
+    color: var(--weather-dash-color);
+}
+
+#scheduler-project {
+    background-color: var(--scheduler-bg);
+    color: var(--scheduler-color);
+}
+
+#toby-project {
+    background-color: var(--toby-time-bg);
+    color: var(--toby-time-color);
+}
+
+#weather-wear-project {
+    background-color: var(--weather-wear-bg);
+    color: var(--weather-wear-color);
 }
 
 .project-div h3 {
@@ -91,6 +136,35 @@ footer {
 
 .project-image {
     width: 200px;
+}
+
+.project-button {
+    width: 100%;
+    margin-top: 1em;
+}
+
+#weather-dashboard-button {
+    background-color: var(--weather-dashboard-button-bg);
+    color: var(--weather-dashboard-button-color);
+    border: 1px solid var(--weather-dashboard-button-border);
+}
+
+#work-scheduler-button {
+    background-color: var(--work-scheduler-button-bg);
+    color: var(--work-scheduler-button-color);
+    border: 1px solid var(--work-scheduler-button-border);
+}
+
+#toby-time-button {
+    background-color: var(--toby-time-button-bg);
+    color: var(--toby-time-button-color);
+    border: 1px solid var(--toby-time-button-border);
+}
+
+#weather-wear-button {
+    background-color: var(--weather-wear-button-bg);
+    color: var(--weather-wear-button-color);
+    border: 1px solid var(--weather-wear-button-border);
 }
 
 #contact-section form {
