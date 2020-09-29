@@ -57,6 +57,14 @@
     --contact-color: var(--darkest);
     --footer-bg: var(--darkest);
     --footer-color: var(--lightest);
+    /* portfolio button shortcut */
+    --home-portfolio-button-bg: var(--lightest);
+    --home-portfolio-button-color: var(--darkest);
+    --home-portfolio-button-border: var(--darkest);
+    /* about resume button */
+    --resume-button-bg: var(--darkest);
+    --resume-button-color: var(--lightest);
+    --resume-button-border: var(--lightest);
     /* projects */
     --weather-dash-bg: var(--light);
     --weather-dash-color: var(--darkest);
@@ -106,6 +114,12 @@ html {
     color: var(--home-color);
 }
 
+#portfolio-button {
+    background-color: var(--home-portfolio-button-bg);
+    color: var(--home-portfolio-button-color);
+    border: 1px solid var(--home-portfolio-button-border);
+}
+
 .font-awesome {
     color: var(--home-color);
     font-size: 2em;
@@ -114,6 +128,12 @@ html {
 #about-container {
     background-color: var(--about-bg);
     color: var(--about-color);
+}
+
+#resume-button {
+    background-color: var(--resume-button-bg);
+    color: var(--resume-button-color);
+    border: 1px solid var(--resume-button-border);
 }
 
 #portfolio-container {
