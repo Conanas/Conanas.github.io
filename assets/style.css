@@ -1,3 +1,21 @@
+:root {
+    --lightest: #c4fff9;
+    --light: #9ceaef;
+    --mid: #68d8d6;
+    --dark: #3dccc7;
+    --darkest: #07beb8;
+    --home-bg: var(--darkest);
+    --home-color: var(--lightest);
+    --about-bg: var(--lightest);
+    --about-color: var(--darkest);
+    --portfolio-bg: var(--darkest);
+    --portfolio-color: var(--lightest);
+    --contact-bg: var(--lightest);
+    --contact-color: var(--darkest);
+    --footer-bg: var(--darkest);
+    --footer-color: var(--lightest);
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,6 +31,31 @@ html {
 
 .page-section h1 {
     margin-bottom: 40px;
+}
+
+#home-container {
+    background-color: var(--home-bg);
+    color: var(--home-color);
+}
+
+#about-container {
+    background-color: var(--about-bg);
+    color: var(--about-color);
+}
+
+#portfolio-container {
+    background-color: var(--portfolio-bg);
+    color: var(--portfolio-color);
+}
+
+#contact-container {
+    background-color: var(--contact-bg);
+    color: var(--contact-color);
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-color);
 }
 
 .target-anchor {
@@ -56,6 +99,12 @@ html {
 
 #contact-textarea {
     width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media screen and (max-width: 476px) {
