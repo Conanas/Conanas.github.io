@@ -11,6 +11,10 @@ html {
     align-items: center;
 }
 
+.page-section h1 {
+    margin-bottom: 40px;
+}
+
 .target-anchor {
     position: absolute;
     left: 0px;
