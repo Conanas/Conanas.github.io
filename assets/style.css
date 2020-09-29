@@ -5,6 +5,7 @@
     --mid: #68d8d6;
     --dark: #3dccc7;
     --darkest: #07beb8; */
+    /* sections */
     /* --home-bg: var(--darkest);
     --home-color: var(--lightest);
     --about-bg: var(--lightest);
@@ -24,30 +25,29 @@
     --resume-button-color: var(--lightest);
     --resume-button-border: var(--lightest); */
     /* projects */
-    /* --weather-dash-bg: var(--light);
-    --weather-dash-color: var(--darkest);
-    --scheduler-bg: var(--dark);
-    --scheduler-color: var(--lightest);
-    --toby-time-bg: var(--light);
-    --toby-time-color: var(--darkest);
-    --weather-wear-bg: var(--dark);
-    --weather-wear-color: var(--lightest); */
+    /* --project-div-bg: var(--darkest);
+    --project-div-color: var(--lightest);
+    --project-div-border: var(--lightest); */
     /* project buttons */
-    /* --weather-dashboard-button-bg: var(--dark);
-    --weather-dashboard-button-color: var(--lightest);
-    --weather-dashboard-button-border: var(--lightest);
-    --work-scheduler-button-bg: var(--light);
-    --work-scheduler-button-color: var(--darkest);
-    --work-scheduler-button-border: var(--darkest);
-    --toby-time-button-bg: var(--dark);
-    --toby-time-button-color: var(--lightest);
-    --toby-time-button-border: var(--lightest);
-    --weather-wear-button-bg: var(--light);
-    --weather-wear-button-color: var(--darkest);
-    --weather-wear-button-border: var(--darkest); */
+    /* --project-button-bg: var(--lightest);
+    --project-button-color: var(--darkest);
+    --project-button-border: var(--darkest); */
     /* contact buttons */
     /* --contact-button-bg: var(--darkest);
     --contact-button-color: var(--lightest); */
+    /* modal */
+    /* --modal-header-bg: var(--darkest);
+    --modal-header-color: var(--lightest);
+    --modal-body-bg: var(--lightest);
+    --modal-body-color: var(--darkest);
+    --modal-footer-bg: var(--darkest);
+    --modal-footer-color: var(--lightest); */
+    /* modal buttons */
+    /* --modal-link-button-bg: var(--lightest);
+    --modal-link-button-color: var(--darkest);
+    --modal-link-button-border: var(--darkest);
+    --modal-close-button-bg: var(--lightest);
+    --modal-close-button-color: var(--darkest); */
     /* pale-grey-blue theme */
     --lightest: #DCDCDD;
     --light: #C5C3C6;
@@ -187,6 +187,9 @@ footer {
     top: 0px;
 }
 
+
+/* home section */
+
 #home-section h1 {
     text-align: center;
 }
@@ -194,6 +197,9 @@ footer {
 .section-statement {
     text-align: center;
 }
+
+
+/* portfolio section */
 
 #portfolio-div {
     display: flex;
@@ -228,6 +234,9 @@ footer {
     border: 1px solid var(--project-button-border);
 }
 
+
+/* contact section */
+
 #contact-section form {
     width: 100%;
 }
@@ -242,11 +251,17 @@ footer {
     border: none;
 }
 
+
+/* footer */
+
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
+/* modal */
 
 .modal-header {
     background-color: var(--modal-header-bg);
