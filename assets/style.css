@@ -84,6 +84,13 @@
     /* contact buttons */
     --contact-button-bg: var(--darkest);
     --contact-button-color: var(--lightest);
+    /* modal */
+    --modal-header-bg: var(--darkest);
+    --modal-header-color: var(--lightest);
+    --modal-body-bg: var(--lightest);
+    --modal-body-color: var(--darkest);
+    --modal-footer-bg: var(--darkest);
+    --modal-footer-color: var(--lightest);
 }
 
 html {
@@ -229,6 +236,21 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.modal-header {
+    background-color: var(--modal-header-bg);
+    color: var(--modal-header-color);
+}
+
+.modal-body {
+    background-color: var(--modal-body-bg);
+    color: var(--modal-body-color);
+}
+
+.modal-footer {
+    background-color: var(--modal-footer-bg);
+    color: var(--modal-footer-color);
 }
 
 @media screen and (max-width: 476px) {
