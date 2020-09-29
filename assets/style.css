@@ -5,6 +5,7 @@
     --mid: #68d8d6;
     --dark: #3dccc7;
     --darkest: #07beb8;
+    /* sections */
     --home-bg: var(--darkest);
     --home-color: var(--lightest);
     --about-bg: var(--lightest);
@@ -38,6 +39,8 @@
     --weather-wear-button-color: var(--darkest);
     --weather-wear-button-border: var(--darkest);
     /* contact buttons */
+    --contact-button-bg: var(--darkest);
+    --contact-button-color: var(--lightest);
 }
 
 html {
@@ -173,6 +176,12 @@ footer {
 
 #contact-textarea {
     width: 100%;
+}
+
+.contact-button {
+    background-color: var(--contact-button-bg);
+    color: var(--contact-button-color);
+    border: none;
 }
 
 footer {
