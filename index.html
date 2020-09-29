@@ -16,31 +16,34 @@
 
 <body>
 
-    <header class="container">
-        <div class="row">
-            <section id="home-section" class="page-section col">
+    <header id="home-container">
+        <div class="container">
+            <div class="row">
+                <section id="home-section" class="page-section col">
 
-                <h1>Tom Haigh Portfolio Page</h1>
+                    <h1>Tom Haigh Portfolio Page</h1>
 
-                <label id="phone-number" class="phone-number">Phone: <span>0406 253 030</span></label>
-                <label id="email-address" class="email-address">Email: <span>tmhaigh@gmail.com</span></label>
+                    <label id="phone-number" class="phone-number">Phone: <span>0406 253 030</span></label>
+                    <label id="email-address" class="email-address">Email: <span>tmhaigh@gmail.com</span></label>
 
-                <div>
-                    <a href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/">LinkedIn</a>
-                    <a href="https://github.com/Conanas">gitHub</a>
-                </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/">LinkedIn</a>
+                        <a href="https://github.com/Conanas">gitHub</a>
+                    </div>
 
-                <label>Location: Melbourne, Victoria, Australia</label>
+                    <label>Location: Melbourne, Victoria, Australia</label>
 
-                <p id="brand-statement" class="section-statement">
-                    Full-stack web developer with JavaScript, HTML, CSS, React.js, MySQL, PHP, Web API and responsive web design skills dedicated to making the web a more accessible and user friendly experience. Projects include a Weather Dashboard, a Work Day Scheduler,
-                    a workout timer and a web app that helps you decide what to wear when heading out.
-                </p>
+                    <p id="brand-statement" class="section-statement">
+                        Full-stack web developer with JavaScript, HTML, CSS, React.js, MySQL, PHP, Web API and responsive web design skills dedicated to making the web a more accessible and user friendly experience. Projects include a Weather Dashboard, a Work Day Scheduler,
+                        a workout timer and a web app that helps you decide what to wear when heading out.
+                    </p>
 
-                <a href="#about-section">View my Portfolio</a>
+                    <a href="#about-section">View my Portfolio</a>
 
-            </section>
+                </section>
+            </div>
         </div>
+
     </header>
 
     <nav class="navbar sticky-top navbar-expand bg-dark navbar-dark">
@@ -69,103 +72,119 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main>
 
-        <div class="row">
-            <section id="about-section" class="page-section col">
-                <a class="target-anchor" name="about-section-target">&nbsp;</a>
-                <!-- About -->
-                <!-- Who am I? -->
-                <!-- List of soft skills that differentiate you from others -->
-                <!-- A link to your resume -->
-                <h1>About</h1>
-                <p class="section-statement">
-                    A resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
-                </p>
-                <a href="#">Resume</a>
-            </section>
-        </div>
-
-        <div class="row">
-            <section id="portfolio-section" class="page-section col">
-                <a class="target-anchor" name="portfolio-section-target">&nbsp;</a>
-                <!-- Portfolio -->
-                <!-- A picture (or even better, a gif) for each project -->
-                <!-- A live link to the project -->
-                <!-- A sub-page with technical details for each project -->
-                <!-- Note: You can also provide high-level information about the project without users having to navigate to a new page. You can use a hovering feature or meaningful caption to accomplish this. -->
-                <h1>Portfolio</h1>
-                <div id="portfolio-div" class="row">
-
-                    <!-- weather dashboard project -->
-                    <div class="project-div col" id="weather-project">
-                        <h3>Weather Dashboard</h3>
-                        <img class="project-image" id="weather-dashboard-image" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
-                        <button id="weather-dashboard-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
-                    </div>
-
-                    <!-- work day scheduler project -->
-                    <div class="project-div col" id="scheduler-project">
-                        <h3>Work Day Scheduler</h3>
-                        <img class="project-image" id="work-scheduler-image" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
-                        <button id="work-scheduler-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
-                    </div>
-
-                    <!-- toby time project -->
-                    <div class="project-div col" id="toby-project">
-                        <h3>Toby Time</h3>
-                        <img class="project-image" id="toby-time-image" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
-                        <button id="toby-time-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
-                    </div>
-
-                    <!-- weatherwear project -->
-                    <div class="project-div col" id="weather-wear-project">
-                        <h3>WeatherWear</h3>
-                        <img class="project-image" id="weather-wear-image" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
-                        <button id="weather-wear-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
-                    </div>
-
+        <div id="about-container">
+            <div class="container">
+                <div class="row">
+                    <section id="about-section" class="page-section col">
+                        <a class="target-anchor" name="about-section-target">&nbsp;</a>
+                        <!-- About -->
+                        <!-- Who am I? -->
+                        <!-- List of soft skills that differentiate you from others -->
+                        <!-- A link to your resume -->
+                        <h1>About</h1>
+                        <p class="section-statement">
+                            A resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
+                        </p>
+                        <a href="#">Resume</a>
+                    </section>
                 </div>
-            </section>
+            </div>
         </div>
 
-        <div class="row">
-            <section id="contact-section" class="page-section col">
-                <a class="target-anchor" name="contact-section-target">&nbsp;</a>
-                <!-- Contact -->
-                <!-- Set up email messaging form -->
-                <h1>Contact</h1>
-                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                    <label for="name"> Name:</label><br>
-                    <input type="text" name="name"><br>
+        <div id="portfolio-container">
+            <div class="container">
+                <div class="row">
+                    <section id="portfolio-section" class="page-section col">
+                        <a class="target-anchor" name="portfolio-section-target">&nbsp;</a>
+                        <!-- Portfolio -->
+                        <!-- A picture (or even better, a gif) for each project -->
+                        <!-- A live link to the project -->
+                        <!-- A sub-page with technical details for each project -->
+                        <!-- Note: You can also provide high-level information about the project without users having to navigate to a new page. You can use a hovering feature or meaningful caption to accomplish this. -->
+                        <h1>Portfolio</h1>
+                        <div id="portfolio-div" class="row">
 
-                    <label for="mail">E-mail:</label><br>
-                    <input type="text" name="mail"><br>
+                            <!-- weather dashboard project -->
+                            <div class="project-div col" id="weather-project">
+                                <h3>Weather Dashboard</h3>
+                                <img class="project-image" id="weather-dashboard-image" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
+                                <button id="weather-dashboard-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                            </div>
 
-                    <label for="comment">Comment:</label><br>
-                    <textarea name="comment" id="contact-textarea" rows="10"></textarea>
+                            <!-- work day scheduler project -->
+                            <div class="project-div col" id="scheduler-project">
+                                <h3>Work Day Scheduler</h3>
+                                <img class="project-image" id="work-scheduler-image" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
+                                <button id="work-scheduler-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                            </div>
 
-                    <br><br>
+                            <!-- toby time project -->
+                            <div class="project-div col" id="toby-project">
+                                <h3>Toby Time</h3>
+                                <img class="project-image" id="toby-time-image" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
+                                <button id="toby-time-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                            </div>
 
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset">
-                </form>
-            </section>
+                            <!-- weatherwear project -->
+                            <div class="project-div col" id="weather-wear-project">
+                                <h3>WeatherWear</h3>
+                                <img class="project-image" id="weather-wear-image" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
+                                <button id="weather-wear-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-container">
+            <div class="container">
+                <div class="row">
+                    <section id="contact-section" class="page-section col">
+                        <a class="target-anchor" name="contact-section-target">&nbsp;</a>
+                        <!-- Contact -->
+                        <!-- Set up email messaging form -->
+                        <h1>Contact</h1>
+                        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                            <label for="name"> Name:</label><br>
+                            <input type="text" name="name"><br>
+
+                            <label for="mail">E-mail:</label><br>
+                            <input type="text" name="mail"><br>
+
+                            <label for="comment">Comment:</label><br>
+                            <textarea name="comment" id="contact-textarea" rows="10"></textarea>
+
+                            <br><br>
+
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
+                        </form>
+                    </section>
+                </div>
+            </div>
         </div>
 
     </main>
 
-    <footer class="container">
+    <footer id="footer-container">
         <!-- Your name -->
         <!-- Basic contact information -->
         <!-- Links to your social media (at least LinkedIn and GitHub) -->
         <!-- Your location (City, State) -->
         <!-- A link to your resume -->
-        <h2>Footer</h2>
-        <p>
-            Praesent elementum maximus rhoncus. Donec a lorem interdum, bibendum nisi sed, lobortis nulla. Ut molestie, risus eu elementum facilisis, quam massa iaculis ex, id pulvinar leo orci ut elit. Morbi pharetra nulla ac est luctus posuere. Vestibulum elit
-            ipsum, facilisis sit amet congue et, consequat eget lorem. Donec vehicula ullamcorper velit id rutrum. Sed sagittis semper quam, sit amet porttitor leo fringilla eu.
-        </p>
+        <label id="phone-number" class="phone-number">Phone: <span>0406 253 030</span></label>
+        <label id="email-address" class="email-address">Email: <span>tmhaigh@gmail.com</span></label>
+
+        <div>
+            <a href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/">LinkedIn</a>
+            <a href="https://github.com/Conanas">gitHub</a>
+        </div>
+
+        <label>Location: Melbourne, Victoria, Australia</label>
     </footer>
 
     <!-- Modal -->
