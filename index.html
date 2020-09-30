@@ -103,8 +103,9 @@
                         <p>
                             I am a resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
                         </p>
-                        <a href="#">
-                            <input id="resume-button" type="button" value="Resume">
+                        <a id="resume-button" href="#">
+                            <i class="fas fa-external-link-alt"></i> Resume
+                            <!-- <input  type="button" value="Resume"></input> -->
                         </a>
                     </section>
                 </div>
@@ -125,31 +126,31 @@
                         <div id="portfolio-div" class="row">
 
                             <!-- weather dashboard project -->
-                            <div class="project-div col" id="weather-project">
+                            <div class="project-div col-12" id="weather-project">
                                 <h3>Weather Dashboard</h3>
                                 <img class="project-image" id="weather-dashboard-image" src="./assets/screenshots/weather-dashboard/weather-dashboard-welcome-screen.png" alt="weather-dashboard-image">
-                                <button id="weather-dashboard-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                                <button id="weather-dashboard-button" class="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
                             </div>
 
                             <!-- work day scheduler project -->
-                            <div class="project-div col" id="scheduler-project">
+                            <div class="project-div col-12" id="scheduler-project">
                                 <h3>Work Day Scheduler</h3>
                                 <img class="project-image" id="work-scheduler-image" src="./assets/screenshots/work-day-scheduler/work-scheduler-main.png" alt="work-day-scheduler-image">
-                                <button id="work-scheduler-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                                <button id="work-scheduler-button" class="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
                             </div>
 
                             <!-- toby time project -->
-                            <div class="project-div col" id="toby-project">
+                            <div class="project-div col-12" id="toby-project">
                                 <h3>Toby Time</h3>
                                 <img class="project-image" id="toby-time-image" src="./assets/screenshots/toby-time/toby-screenshot-main.png" alt="toby-time-image">
-                                <button id="toby-time-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                                <button id="toby-time-button" class="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
                             </div>
 
                             <!-- weatherwear project -->
-                            <div class="project-div col" id="weather-wear-project">
+                            <div class="project-div col-12" id="weather-wear-project">
                                 <h3>WeatherWear</h3>
                                 <img class="project-image" id="weather-wear-image" src="./assets/screenshots/weather-wear/weather-wear-welcom-screen.png" alt="weather-wear-image">
-                                <button id="weather-wear-button" class="project-button" data-toggle="modal" data-target="#project-modal">Project Info</button>
+                                <button id="weather-wear-button" class="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
                             </div>
 
                         </div>
@@ -167,13 +168,13 @@
                         <!-- Set up email messaging form -->
                         <h1>Contact</h1>
                         <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                            <label for="name"> Name:</label><br>
-                            <input type="text" name="name"><br>
+                            <label class="contact-label" for="name"> Name:</label><br>
+                            <input class="contact-input" type="text" name="name"><br>
 
-                            <label for="mail">E-mail:</label><br>
-                            <input type="text" name="mail"><br>
+                            <label class="contact-label" for="mail">E-mail:</label><br>
+                            <input class="contact-input" type="text" name="mail"><br>
 
-                            <label for="comment">Comment:</label><br>
+                            <label class="contact-label" for="comment">Comment:</label><br>
                             <textarea name="comment" id="contact-textarea" rows="10"></textarea>
 
                             <br><br>
