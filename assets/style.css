@@ -1,40 +1,48 @@
 :root {
     /* pale-grey-blue theme */
-    --lightest: #DCDCDD;
-    --light: #C5C3C6;
+    --lightest: #D7D5D7;
+    --light: #ACACAF;
     --mid: #46494C;
     --dark: #4C5C68;
-    --darkest: #1985A1;
+    --darkest: #11586A;
     /* sections */
     --home-bg: var(--darkest);
     --home-color: var(--lightest);
-    --about-bg: var(--light);
+    --about-bg: var(--lightest);
     --about-color: var(--darkest);
-    --portfolio-bg: var(--lightest);
-    --portfolio-color: var(--darkest);
-    --contact-bg: var(--light);
+    --portfolio-bg: var(--darkest);
+    --portfolio-color: var(--lightest);
+    --contact-bg: var(--lightest);
     --contact-color: var(--darkest);
     --footer-bg: var(--darkest);
     --footer-color: var(--lightest);
+    /* navbar */
+    --navbar-color: var(--lightest);
+    --navbar-color-hover: var(--light);
     /* portfolio button shortcut */
     --home-portfolio-button-bg: var(--lightest);
     --home-portfolio-button-color: var(--darkest);
     --home-portfolio-button-border: var(--darkest);
+    --home-portfolio-button-bg-hover: var(--dark);
+    --home-portfolio-button-color-hover: var(--light);
+    --home-portfolio-button-border-hover: var(--light);
     /* about resume button */
-    --resume-button-bg: var(--darkest);
-    --resume-button-color: var(--lightest);
-    --resume-button-border: var(--lightest);
+    --resume-button-color: black;
+    --resume-button-color-hover: var(--lightest);
     /* projects */
-    --project-div-bg: var(--darkest);
-    --project-div-color: var(--lightest);
-    --project-div-border: var(--lightest);
+    --project-div-bg: var(--light);
+    --project-div-color: var(--darkest);
+    --project-div-border: var(--darkest);
     /* project buttons */
     --project-button-bg: var(--lightest);
     --project-button-color: var(--darkest);
     --project-button-border: var(--darkest);
+    --project-button-bg-hover: var(--light);
+    --project-button-color-hover: var(--darkest);
+    --project-button-border-hover: var(--darkest);
     /* contact buttons */
     --contact-button-bg: var(--darkest);
-    --contact-button-color: var(--lightest);
+    --contact-button-color: var(--light);
     /* modal */
     --modal-header-bg: var(--darkest);
     --modal-header-color: var(--lightest);
@@ -91,6 +99,14 @@ h1 h2 h3 h4 h5 {
     color: var(--home-color);
 }
 
+.nav-link {
+    color: var(--navbar-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--navbar-color-hover) !important;
+}
+
 #links-div {
     margin-bottom: 1em;
 }
@@ -99,6 +115,14 @@ h1 h2 h3 h4 h5 {
     background-color: var(--home-portfolio-button-bg);
     color: var(--home-portfolio-button-color);
     border: 1px solid var(--home-portfolio-button-border);
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+#portfolio-button:hover {
+    background-color: var(--home-portfolio-button-bg-hover);
+    color: var(--home-portfolio-button-color-hover);
+    border: 1px solid var(--home-portfolio-button-border-hover);
 }
 
 .font-awesome {
@@ -112,9 +136,11 @@ h1 h2 h3 h4 h5 {
 }
 
 #resume-button {
-    background-color: var(--resume-button-bg);
     color: var(--resume-button-color);
-    border: 1px solid var(--resume-button-border);
+}
+
+#resume-button:hover {
+    color: var(--resume-button-color-hover);
 }
 
 #portfolio-container {
@@ -135,7 +161,7 @@ footer {
 .target-anchor {
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: -56px;
 }
 
 
@@ -167,26 +193,30 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 1em;
-    background-color: var(--project-div-bg);
-    color: var(--project-div-color);
-    border: 1px solid var(--project-div-border);
+    /* background-color: var(--project-div-bg);
+    color: var(--project-div-color); */
+    /* border: 1px solid var(--project-div-border); */
 }
 
 .project-div h3 {
-    height: 70px;
     text-align: center;
 }
 
 .project-image {
-    width: 200px;
+    width: 400px;
 }
 
 .project-button {
-    width: 100%;
     margin-top: 1em;
     background-color: var(--project-button-bg);
     color: var(--project-button-color);
     border: 1px solid var(--project-button-border);
+}
+
+.project-button:hover {
+    background-color: var(--project-button-bg-hover);
+    color: var(--project-button-color-hover);
+    border: 1px solid var(--project-button-border-hover);
 }
 
 
@@ -194,6 +224,14 @@ footer {
 
 #contact-section form {
     width: 100%;
+}
+
+.contact-label {
+    margin-bottom: 4px;
+}
+
+.contact-input {
+    margin-bottom: 12px;
 }
 
 #contact-textarea {
