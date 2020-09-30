@@ -31,7 +31,7 @@ function loadWeatherDashboardProject() {
     // Brief description of the project
     // A list of languages used in the application
     modalBodyText.html(
-        "<h5>Description</h5>" +
+        "<h4>Description</h4>" +
 
         "<p>" +
 
@@ -83,7 +83,7 @@ function loadWorkSchedulerProject() {
         alt: "work-scheduler-items-added - copy"
     });
     modalBodyText.html(
-        "<h5>Description</h5>" +
+        "<h4>Description</h4>" +
 
         "<p>" +
 
@@ -130,7 +130,7 @@ function loadTobyTimeProject() {
         alt: "toby-screenshots-face"
     });
     modalBodyText.html(
-        "<h5>Description</h5>" +
+        "<h4>Description</h4>" +
 
         "<p>" +
 
@@ -175,7 +175,7 @@ function loadWeatherWearProject() {
         alt: "weather-wear-welcom-screen"
     });
     modalBodyText.html(
-        "<h5>Description</h5>" +
+        "<h4>Description</h4>" +
 
         "<p>" +
 
@@ -192,7 +192,7 @@ function loadWeatherWearProject() {
 
         "</p>" +
 
-        "<h5>Technologies used</h5>" +
+        "<h4>Technologies used</h4>" +
 
         "<ul>" +
         "<li>html</il>" +
