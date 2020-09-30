@@ -1,53 +1,4 @@
 :root {
-    /* teal color theme */
-    /* --lightest: #c4fff9;
-    --light: #9ceaef;
-    --mid: #68d8d6;
-    --dark: #3dccc7;
-    --darkest: #07beb8; */
-    /* sections */
-    /* --home-bg: var(--darkest);
-    --home-color: var(--lightest);
-    --about-bg: var(--lightest);
-    --about-color: var(--darkest);
-    --portfolio-bg: var(--darkest);
-    --portfolio-color: var(--lightest);
-    --contact-bg: var(--lightest);
-    --contact-color: var(--darkest);
-    --footer-bg: var(--darkest);
-    --footer-color: var(--lightest); */
-    /* portfolio button shortcut */
-    /* --home-portfolio-button-bg: var(--lightest);
-    --home-portfolio-button-color: var(--darkest);
-    --home-portfolio-button-border: var(--darkest); */
-    /* about resume button */
-    /* --resume-button-bg: var(--darkest);
-    --resume-button-color: var(--lightest);
-    --resume-button-border: var(--lightest); */
-    /* projects */
-    /* --project-div-bg: var(--darkest);
-    --project-div-color: var(--lightest);
-    --project-div-border: var(--lightest); */
-    /* project buttons */
-    /* --project-button-bg: var(--lightest);
-    --project-button-color: var(--darkest);
-    --project-button-border: var(--darkest); */
-    /* contact buttons */
-    /* --contact-button-bg: var(--darkest);
-    --contact-button-color: var(--lightest); */
-    /* modal */
-    /* --modal-header-bg: var(--darkest);
-    --modal-header-color: var(--lightest);
-    --modal-body-bg: var(--lightest);
-    --modal-body-color: var(--darkest);
-    --modal-footer-bg: var(--darkest);
-    --modal-footer-color: var(--lightest); */
-    /* modal buttons */
-    /* --modal-link-button-bg: var(--lightest);
-    --modal-link-button-color: var(--darkest);
-    --modal-link-button-border: var(--darkest);
-    --modal-close-button-bg: var(--lightest);
-    --modal-close-button-color: var(--darkest); */
     /* pale-grey-blue theme */
     --lightest: #DCDCDD;
     --light: #C5C3C6;
@@ -57,11 +8,11 @@
     /* sections */
     --home-bg: var(--darkest);
     --home-color: var(--lightest);
-    --about-bg: var(--lightest);
+    --about-bg: var(--light);
     --about-color: var(--darkest);
-    --portfolio-bg: var(--darkest);
-    --portfolio-color: var(--lightest);
-    --contact-bg: var(--lightest);
+    --portfolio-bg: var(--lightest);
+    --portfolio-color: var(--darkest);
+    --contact-bg: var(--light);
     --contact-color: var(--darkest);
     --footer-bg: var(--darkest);
     --footer-color: var(--lightest);
@@ -201,6 +152,10 @@ footer {
 
 /* portfolio section */
 
+#portfolio-section h1 {
+    margin-top: 40px;
+}
+
 #portfolio-div {
     display: flex;
     justify-content: center;
@@ -271,6 +226,10 @@ footer {
 .modal-body {
     background-color: var(--modal-body-bg);
     color: var(--modal-body-color);
+}
+
+#project-carousel {
+    margin-bottom: 8px;
 }
 
 .modal-footer {
