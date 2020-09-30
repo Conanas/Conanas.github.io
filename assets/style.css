@@ -26,6 +26,8 @@
     --home-portfolio-button-bg-hover: var(--dark);
     --home-portfolio-button-color-hover: var(--light);
     --home-portfolio-button-border-hover: var(--light);
+    --social-icon-bg-hover: var(--lightest);
+    --social-icon-color-hover: var(--darkest);
     /* about resume button */
     --resume-button-color: black;
     --resume-button-color-hover: var(--lightest);
@@ -42,7 +44,7 @@
     --project-button-border-hover: var(--darkest);
     /* contact buttons */
     --contact-button-bg: var(--darkest);
-    --contact-button-color: var(--light);
+    --contact-button-color: var(--lightest);
     /* modal */
     --modal-header-bg: var(--darkest);
     --modal-header-color: var(--lightest);
@@ -109,6 +111,11 @@ h1 h2 h3 h4 h5 {
 
 #links-div {
     margin-bottom: 1em;
+}
+
+#links-div-anchor:hover {
+    background-color: var(--social-icon-bg-hover);
+    color: var(--social-icon-color-hover);
 }
 
 #portfolio-button {
@@ -203,7 +210,7 @@ footer {
 }
 
 .project-image {
-    width: 400px;
+    width: 80%;
 }
 
 .project-button {
@@ -266,7 +273,8 @@ footer {
     color: var(--modal-body-color);
 }
 
-#project-carousel {
+#modal-image {
+    width: 100%;
     margin-bottom: 8px;
 }
 
