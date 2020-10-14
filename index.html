@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- css -->
     <link rel="stylesheet" href="./assets/style.css">
@@ -29,22 +29,24 @@
 
                     <h1>Tom Haigh Portfolio Page</h1>
 
-                    <label id="phone-number" class="contact-info">Phone: <span>0406 253 030</span></label>
-                    <label id="email-address" class="contact-info">Email: <span>tmhaigh@gmail.com</span></label>
-
-                    <label class="contact-info">Location: Melbourne, Victoria, Australia</label>
-
-                    <p id="brand-statement" class="section-statement">
+                    <p class="section-statement">
                         Full-stack web developer with JavaScript, HTML, CSS, React.js, MySQL, PHP, Web API and responsive web design skills dedicated to making the web a more accessible and user friendly experience. Projects include a Weather Dashboard, a Work Day Scheduler,
                         a workout timer and a web app that helps you decide what to wear when heading out.
                     </p>
-
+                    <div class="home-contact-info">
+                        <label id="phone-number" class="contact-info">Phone: 0406 253 030 || </label>
+                        <label id="email-address" class="contact-info">Email: tmhaigh@gmail.com || </label>
+                        <label class="contact-info">Location: Melbourne, Victoria, Australia</label>
+                    </div>
+                    <a id="resume-button" href="https://drive.google.com/file/d/14YtaUEp71hpXhJDvR_-b9N-X2cvrfx8n/view?usp=sharing" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> Resume
+                    </a>
                     <div id="links-div">
                         <a class="links-div-anchor" href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/" target="_blank">
-                            <i class="fab fa-linkedin font-awesome"></i>
+                            <i class="fab fa-linkedin font-awesome social-icon"></i>
                         </a>
                         <a class="links-div-anchor" href="https://github.com/Conanas" target="_blank">
-                            <i class="fab fa-github font-awesome"></i>
+                            <i class="fab fa-github font-awesome social-icon"></i>
                         </a>
                     </div>
 
@@ -90,23 +92,27 @@
             <div class="container">
                 <div class="row">
                     <section id="about-section" class="page-section col">
-                        <a class="target-anchor" name="about-section-target">&nbsp;</a>
+                        <a class="about-target-anchor" name="about-section-target">&nbsp;</a>
                         <!-- About -->
                         <!-- Who am I? -->
                         <!-- List of soft skills that differentiate you from others -->
                         <!-- A link to your resume -->
                         <h1>About</h1>
-                        <p class="section-statement">
-                            Originally from the Peak District National Park in the UK, I came to Australia in 2010 and I became an Australian citizen in 2018. It is in the Peak District I got into rock climbing and I continue to climb because not only do I enjoy moving on rock but
-                            because of the similarities rock climbing has with coding. They both require a lot of problem solving and give me great satisfaction when I complete a climb or a project.
-                        </p>
-                        <p class="section-statement">
-                            I am a resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
-                        </p>
-                        <a id="resume-button" href="#">
-                            <i class="fas fa-external-link-alt"></i> Resume
-                            <!-- <input  type="button" value="Resume"></input> -->
-                        </a>
+                        <div class="row about-main-div">
+                            <div class="col">
+                                <img class="float-left" id="about-img" src="../assets/portfolio-img/tom-portfolio-photo.jpg" alt="portfolio-image">
+                                <p class="section-statement">
+                                    Originally from the Peak District National Park in the UK, I came to Australia in 2010 and I became an Australian citizen in 2018. It is in the Peak District I got into rock climbing and I continue to climb because not only do I enjoy moving on rock but
+                                    because of the similarities rock climbing has with coding. They both require a lot of problem solving and give me great satisfaction when I complete a climb or a project.
+                                </p>
+                                <p class="section-statement">
+                                    I am a resourceful full-stack web developer based in Melbourne, Australia with creative problem solving skills who is an adaptable team player that values effective communication, hard work and self improvement through critical feedback.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+
+                        </div>
                     </section>
                 </div>
             </div>
@@ -211,19 +217,19 @@
         <!-- Links to your social media (at least LinkedIn and GitHub) -->
         <!-- Your location (City, State) -->
         <!-- A link to your resume -->
-        <label id="phone-number" class="phone-number">Phone: <span>0406 253 030</span></label>
-        <label id="email-address" class="email-address">Email: <span>tmhaigh@gmail.com</span></label>
-
+        <div>
+            <label id="phone-number" class="phone-number">Phone: 0406 253 030 || </label>
+            <label id="email-address" class="email-address">Email: tmhaigh@gmail.com || </label>
+            <label>Location: Melbourne, Victoria, Australia</label>
+        </div>
         <div>
             <a class="links-div-anchor" href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/" target="_blank">
-                <i class="fab fa-linkedin font-awesome"></i>
+                <i class="fab fa-linkedin font-awesome social-icon"></i>
             </a>
             <a class="links-div-anchor" href="https://github.com/Conanas" target="_blank">
-                <i class="fab fa-github font-awesome"></i>
+                <i class="fab fa-github font-awesome social-icon"></i>
             </a>
         </div>
-
-        <label>Location: Melbourne, Victoria, Australia</label>
     </footer>
 
     <!-- Modal -->
