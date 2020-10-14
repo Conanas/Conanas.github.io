@@ -26,10 +26,10 @@
     --home-portfolio-button-bg-hover: var(--dark);
     --home-portfolio-button-color-hover: var(--light);
     --home-portfolio-button-border-hover: var(--light);
-    --social-icon-bg-hover: var(--lightest);
-    --social-icon-color-hover: var(--darkest);
+    --social-icon-color: var(--lightest);
+    --social-icon-color-hover: var(--light);
     /* about resume button */
-    --resume-button-color: black;
+    --resume-button-color: var(--light);
     --resume-button-color-hover: var(--lightest);
     /* projects */
     --project-div-bg: var(--light);
@@ -76,7 +76,7 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Hind', sans-serif;
 }
 
 h1 {
@@ -84,7 +84,11 @@ h1 {
     margin-bottom: 40px;
 }
 
-h1 h2 h3 h4 h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
 }
@@ -114,12 +118,16 @@ h1 h2 h3 h4 h5 {
 }
 
 #links-div {
-    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#links-div-anchor:hover {
-    background-color: var(--social-icon-bg-hover);
-    color: var(--social-icon-color-hover);
+.social-icon {
+    color: var(--social-icon-color) !important;
+}
+
+.social-icon:hover {
+    color: var(--social-icon-color-hover) !important;
 }
 
 #portfolio-button {
@@ -148,6 +156,8 @@ h1 h2 h3 h4 h5 {
 
 #resume-button {
     color: var(--resume-button-color);
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 #resume-button:hover {
@@ -179,7 +189,13 @@ footer {
 /* home section */
 
 .section-statement {
-    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+}
+
+.home-contact-info {
+    margin: 20px auto;
 }
 
 .contact-info {
@@ -188,6 +204,23 @@ footer {
 
 
 /* about section */
+
+.about-target-anchor {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.about-main-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-img {
+    width: 20%;
+    min-width: 138px;
+    margin-right: 20px;
+}
 
 
 /* portfolio section */
@@ -276,6 +309,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -314,6 +349,11 @@ footer {
 }
 
 @media screen and (max-width: 476px) {
+    .about-target-anchor {
+        position: absolute;
+        left: 0px;
+        top: -56px;
+    }
     .target-anchor {
         position: absolute;
         left: 0px;
