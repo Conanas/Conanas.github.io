@@ -1,5 +1,6 @@
 $("#weather-dashboard-button").on("click", loadWeatherDashboardProject);
 $("#work-scheduler-button").on("click", loadWorkSchedulerProject);
+$("#note-taker-button").on("click", loadNoteTakerProject);
 $("#toby-time-button").on("click", loadTobyTimeProject);
 $("#weather-wear-button").on("click", loadWeatherWearProject);
 
@@ -99,6 +100,38 @@ function loadWorkSchedulerProject() {
     `);
     liveLink.attr("href", "https://conanas.github.io/work-day-scheduler/");
     githubLink.attr("href", "https://github.com/Conanas/work-day-scheduler");
+}
+
+function loadNoteTakerProject() {
+    modalTitle.text("Note Taker");
+    modalImage.attr({
+        src: "./assets/screenshots/note-taker/note-taker.png",
+        alt: "work-scheduler-main"
+    });
+    modalBodyText.html(`
+        <h4>Description</h4>
+
+        <p>
+            Note Taker is a fully responsive Express.js web 
+            app hosted on heroku that allows users to create 
+            notes to help organise thoughts and planning. Notes 
+            are saved for review at a later date or can be deleted.
+        </p>
+
+        <h4>Technologies used</h4>
+
+        <ul>
+            <li>html</il>
+            <li>css</il>
+            <li>Bootstrap</il>
+            <li>javaScript</il>
+            <li>jQuery</il>
+            <li>Node.js</il>
+            <li>Express.js</il>
+        </ul>
+    `);
+    liveLink.attr("href", "https://node-express-note-taker.herokuapp.com/");
+    githubLink.attr("href", "https://github.com/Conanas/note-taker");
 }
 
 function loadTobyTimeProject() {
