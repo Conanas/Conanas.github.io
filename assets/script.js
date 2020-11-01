@@ -1,4 +1,5 @@
 $("#weather-dashboard-button").on("click", loadWeatherDashboardProject);
+$("#eat-dat-burger-button").on("click", loadEatDatBurgerProject);
 $("#work-scheduler-button").on("click", loadWorkSchedulerProject);
 $("#note-taker-button").on("click", loadNoteTakerProject);
 $("#toby-time-button").on("click", loadTobyTimeProject);
@@ -36,15 +37,15 @@ function loadWeatherDashboardProject() {
             using third party web API's. The app calls weather
             information from openweathermap.org then using 
             JavaScript and JQuery the returned information 
-            is rendered onto a single html page, using css 
+            is rendered onto a single HTML page, using CSS 
             for styling and bootstrap for responsiveness.
         </p>
 
         <h4>Technologies used</h4>
 
         <ul>
-            <li>html</il>
-            <li>css</il>
+            <li>HTML</il>
+            <li>CSS</il>
             <li>Bootstrap</il>
             <li>javaScript</il>
             <li>jQuery</il>
@@ -57,6 +58,56 @@ function loadWeatherDashboardProject() {
     `);
     liveLink.attr("href", "https://conanas.github.io/weather-dashboard/");
     githubLink.attr("href", "https://github.com/Conanas/weather-dashboard");
+}
+
+function loadEatDatBurgerProject() {
+    modalTitle.text("Eat Dat Burger");
+    modalImage.attr({
+        src: "./assets/screenshots/eat-dat-burger/eat-dat-burger-screenshot.png",
+        alt: "eat-dat-burger-screenshot"
+    });
+    // Projects
+    // What makes the project interesting technically
+    // Brief description of the project
+    // A list of languages used in the application
+    modalBodyText.html(`
+        <h4>Description</h4>
+
+        <p>
+            Ever wanted to have a list of burgers that you
+            were planning on eating in the future? Then Eat 
+            Dat Burger let's you do exactly that. Clients 
+            enter any burger they want into a SQL database 
+            and when the client eats that burger then the 
+            database can be updated and the burger is placed 
+            into a list of burgers that have been devoured 
+            by the client.
+        </p>
+        <p>
+            Eat Dat Burger is an exercise in full-stack web 
+            development which involes a fully responsive HTML, 
+            CSS and JavaScript front-end and a Node.js, Express.js 
+            mySQL backend. A single page dynamically generated 
+            web app that uses templating with Handlebars.js.
+        </p>
+
+        <h4>Technologies used</h4>
+
+        <ul>
+            <li>HTML</il>
+            <li>CSS</il>
+            <li>Bootstrap</il>
+            <li>javaScript</il>
+            <li>jQuery</il>
+            <li>Node.js</il>
+            <li>Handlebars.js</il>
+            <li>mySQL</il>
+            <li>Express.js</il>
+        </ul>
+
+    `);
+    liveLink.attr("href", "https://mysql-eat-dat-burger.herokuapp.com/");
+    githubLink.attr("href", "https://github.com/Conanas/eat-dat-burger");
 }
 
 function loadWorkSchedulerProject() {
@@ -84,14 +135,14 @@ function loadWorkSchedulerProject() {
             time of day which is then used by the javaScript 
             to render the background colours of the different 
             timeslots. App is fully responsive thanks to bootstrap 
-            and the styling on the html is achieved by css.
+            and the styling on the HTML is achieved by CSS.
         </p>
 
         <h4>Technologies used</h4>
 
         <ul>
-            <li>html</il>
-            <li>css</il>
+            <li>HTML</il>
+            <li>CSS</il>
             <li>Bootstrap</il>
             <li>javaScript</il>
             <li>jQuery</il>
@@ -121,8 +172,8 @@ function loadNoteTakerProject() {
         <h4>Technologies used</h4>
 
         <ul>
-            <li>html</il>
-            <li>css</il>
+            <li>HTML</il>
+            <li>CSS</il>
             <li>Bootstrap</il>
             <li>javaScript</il>
             <li>jQuery</il>
@@ -154,7 +205,7 @@ function loadTobyTimeProject() {
         </p>
         <p>
             Fully responsive with the use of bootstrap, a single 
-            html page is styled with CSS and rendered with javaScript 
+            HTML page is styled with CSS and rendered with javaScript 
             and jQuery. Includes the use of sounds to indicate when 
             the rest or break period is about to end.
         </p>
@@ -162,8 +213,8 @@ function loadTobyTimeProject() {
         <h4>Technologies used</h4>
 
         <ul>
-            <li>html</il>
-            <li>css</il>
+            <li>HTML</il>
+            <li>CSS</il>
             <li>Bootstrap</il>
             <li>javaScript</il>
             <li>jQuery</il>
@@ -184,7 +235,7 @@ function loadWeatherWearProject() {
 
         <p>
             WeatherWear is a single paged, fully responsive javaScript 
-            and jQuery rendered html web app styled with CSS that aids 
+            and jQuery rendered HTML web app styled with CSS that aids 
             users plan what to wear depending on the weather forecast 
             for a user selected time range. The user is presented with 
             going out and coming home times that are generated live 
@@ -204,8 +255,8 @@ function loadWeatherWearProject() {
         <h4>Technologies used</h4>
 
         <ul>
-            <li>html</il>
-            <li>css</il>
+            <li>HTML</il>
+            <li>CSS</il>
             <li>Materialize</il>
             <li>javaScript</il>
             <li>jQuery</il>
