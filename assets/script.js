@@ -1,5 +1,6 @@
 $("#weather-dashboard-button").on("click", loadWeatherDashboardProject);
 $("#eat-dat-burger-button").on("click", loadEatDatBurgerProject);
+$("#meal-budgeter-button").on("click", loadMealBudgeterProject);
 $("#work-scheduler-button").on("click", loadWorkSchedulerProject);
 $("#note-taker-button").on("click", loadNoteTakerProject);
 $("#toby-time-button").on("click", loadTobyTimeProject);
@@ -85,7 +86,7 @@ function loadEatDatBurgerProject() {
         </p>
         <p>
             Eat Dat Burger is an exercise in full-stack web 
-            development which involes a fully responsive HTML, 
+            development which involves a fully responsive HTML, 
             CSS and JavaScript front-end and a Node.js, Express.js 
             mySQL backend. A single page dynamically generated 
             web app that uses templating with Handlebars.js.
@@ -108,6 +109,61 @@ function loadEatDatBurgerProject() {
     `);
     liveLink.attr("href", "https://mysql-eat-dat-burger.herokuapp.com/");
     githubLink.attr("href", "https://github.com/Conanas/eat-dat-burger");
+}
+
+function loadMealBudgeterProject() {
+    modalTitle.text("Meal Budgeter");
+    modalImage.attr({
+        src: "./assets/screenshots/meal-budgeter/meal-budgeter-screenshot.png",
+        alt: "meal-budgeter-screenshot"
+    });
+    // Projects
+    // What makes the project interesting technically
+    // Brief description of the project
+    // A list of languages used in the application
+    modalBodyText.html(`
+        <h4>Description</h4>
+
+        <p>
+            Meal Budgeter is an online community generated resource 
+            for people who are on a budget and are looking for low 
+            cost meals to make at home. The recipes on Meal Budgeter 
+            are created by users who have money saving recipes to share.
+        </p>
+        <p>
+            The recipes found on Meal Budgeter are created by the 
+            users and the cost of each recipe is automatically 
+            calculated by the application. Users can easily enter 
+            a new recipe into the database with the easy to use 
+            create-a-recipe form. As users enter the ingredients 
+            into their recipe then the price of the ingredients 
+            are automatically retrieved from a third party API 
+            database.
+        </p>
+        <p>
+            Users can not only add recipes to the database but 
+            they can also give ratings out of 5 to any recipe 
+            they have tried, leave comments and save recipes to 
+            their account for future reference.
+        </p>
+
+        <h4>Technologies used</h4>
+
+        <ul>
+            <li>HTML</il>
+            <li>CSS</il>
+            <li>Bootstrap</il>
+            <li>javaScript</il>
+            <li>jQuery</il>
+            <li>Node.js</il>
+            <li>Handlebars.js</il>
+            <li>mySQL</il>
+            <li>Express.js</il>
+        </ul>
+
+    `);
+    liveLink.attr("href", "https://arcane-tundra-81761.herokuapp.com/");
+    githubLink.attr("href", "https://github.com/willwoodburn1/Group-Project-2");
 }
 
 function loadWorkSchedulerProject() {
@@ -134,7 +190,7 @@ function loadWorkSchedulerProject() {
             Moment.js is utilised to retrieve the current 
             time of day which is then used by the javaScript 
             to render the background colours of the different 
-            timeslots. App is fully responsive thanks to bootstrap 
+            time-slots. App is fully responsive thanks to bootstrap 
             and the styling on the HTML is achieved by CSS.
         </p>
 
@@ -199,7 +255,7 @@ function loadTobyTimeProject() {
             rep tracker for your workouts and upon completion 
             you are rewarded with a picture of my cat Toby. 
             Simply enter the reps, rest time, sets and break 
-            time and start doing your pressups, pullups or 
+            time and start doing your press-ups, pull-ups or 
             situps etc... You can save your workouts parameters 
             to local storage to be reloaded for future use.
         </p>
@@ -227,8 +283,8 @@ function loadTobyTimeProject() {
 function loadWeatherWearProject() {
     modalTitle.text("Weather Wear");
     modalImage.attr({
-        src: "./assets/screenshots/weather-wear/weather-wear-welcom-screen.png",
-        alt: "weather-wear-welcom-screen"
+        src: "./assets/screenshots/weather-wear/weather-wear-welcome-screen.png",
+        alt: "weather-wear-welcome-screen"
     });
     modalBodyText.html(`
         <h4>Description</h4>
