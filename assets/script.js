@@ -157,8 +157,8 @@ function loadMealBudgeterProject() {
             <li>jQuery</il>
             <li>Node.js</il>
             <li>Handlebars.js</il>
-            <li>mySQL</il>
             <li>Express.js</il>
+            <li>Sequelize</li>
         </ul>
 
     `);
