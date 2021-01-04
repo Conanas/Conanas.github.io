@@ -6,7 +6,6 @@ $("#note-taker-button").on("click", loadNoteTakerProject);
 $("#toby-time-button").on("click", loadTobyTimeProject);
 $("#weather-wear-button").on("click", loadWeatherWearProject);
 
-var modalHeader = $(".modal-header");
 var modalTitle = $(".modal-title");
 var modalImage = $("#modal-image");
 var modalBodyText = $("#project-description");
