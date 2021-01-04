@@ -144,11 +144,6 @@ h5 {
     font-size: 2em;
 }
 
-#about-container {
-    background-color: var(--about-bg);
-    color: var(--about-color);
-}
-
 #resume-button {
     color: var(--resume-button-color);
     margin-bottom: 20px;
@@ -190,26 +185,6 @@ h5 {
 
 .contact-info {
     text-align: center;
-}
-
-
-/* about section */
-
-.about-target-anchor {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
-.about-main-div {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#about-img {
-    width: 20%;
-    min-width: 138px;
-    margin-right: 20px;
 }
 
 
