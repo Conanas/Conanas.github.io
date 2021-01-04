@@ -104,11 +104,6 @@ h5 {
     padding-bottom: 40px;
 }
 
-#home-container {
-    background-color: var(--home-bg);
-    color: var(--home-color);
-}
-
 .nav-link {
     color: var(--navbar-color) !important;
 }
@@ -172,11 +167,6 @@ h5 {
 #contact-container {
     background-color: var(--contact-bg);
     color: var(--contact-color);
-}
-
-footer {
-    background-color: var(--footer-bg);
-    color: var(--footer-color);
 }
 
 .target-anchor {
@@ -300,17 +290,6 @@ footer {
     background-color: var(--contact-button-bg);
     color: var(--contact-button-color);
     border: none;
-}
-
-
-/* footer */
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 
