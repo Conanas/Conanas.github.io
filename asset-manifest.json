@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0e945ad1.chunk.css",
+    "main.js": "/static/js/main.392fb51a.chunk.js",
+    "main.js.map": "/static/js/main.392fb51a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bc25dda6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bc25dda6.js.map",
+    "static/js/2.e2b6bc98.chunk.js": "/static/js/2.e2b6bc98.chunk.js",
+    "static/js/2.e2b6bc98.chunk.js.map": "/static/js/2.e2b6bc98.chunk.js.map",
+    "static/js/3.964af85e.chunk.js": "/static/js/3.964af85e.chunk.js",
+    "static/js/3.964af85e.chunk.js.map": "/static/js/3.964af85e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0e945ad1.chunk.css.map": "/static/css/main.0e945ad1.chunk.css.map",
+    "static/js/2.e2b6bc98.chunk.js.LICENSE.txt": "/static/js/2.e2b6bc98.chunk.js.LICENSE.txt",
+    "static/media/eat-dat-burger-screenshot.0edc36d8.png": "/static/media/eat-dat-burger-screenshot.0edc36d8.png",
+    "static/media/meal-budgeter-screenshot.8dfc1624.png": "/static/media/meal-budgeter-screenshot.8dfc1624.png",
+    "static/media/note-taker.74bb3ecf.png": "/static/media/note-taker.74bb3ecf.png",
+    "static/media/toby-screenshot-main.7817b354.png": "/static/media/toby-screenshot-main.7817b354.png",
+    "static/media/tom-portfolio-photo.5852c21b.jpg": "/static/media/tom-portfolio-photo.5852c21b.jpg",
+    "static/media/weather-dashboard-screenshot.d9acb85f.png": "/static/media/weather-dashboard-screenshot.d9acb85f.png",
+    "static/media/weather-wear-welcome-screen.c30401bc.png": "/static/media/weather-wear-welcome-screen.c30401bc.png",
+    "static/media/work-scheduler-main.38f05348.png": "/static/media/work-scheduler-main.38f05348.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc25dda6.js",
+    "static/js/2.e2b6bc98.chunk.js",
+    "static/css/main.0e945ad1.chunk.css",
+    "static/js/main.392fb51a.chunk.js"
+  ]
+}
