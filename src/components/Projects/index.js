@@ -1,12 +1,6 @@
 import React from 'react';
 import "./style.css";
-import weatherWearImage from "../../assets/screenshots/weather-wear/weather-wear-welcome-screen.png";
-import workDaySchedulerImage from "../../assets/screenshots/work-day-scheduler/work-scheduler-main.png";
-import weatherDashboardImage from "../../assets/screenshots/weather-dashboard/weather-dashboard-screenshot.png";
-import eatDatBurgerImage from "../../assets/screenshots/eat-dat-burger/eat-dat-burger-screenshot.png";
-import mealBudgeterImage from "../../assets/screenshots/meal-budgeter/meal-budgeter-screenshot.png";
-import noteTakerImage from "../../assets/screenshots/note-taker/note-taker.png";
-import tobyTimeImage from "../../assets/screenshots/toby-time/toby-screenshot-main.png";
+import ProjectsData from '../../assets/data/projects.json';
 
 
 function Projects() {
@@ -16,91 +10,21 @@ function Projects() {
         <div className="row">
           <section id="portfolio-section" className="page-section col">
             <a className="target-anchor" name="portfolio-section-target">&nbsp;</a>
-            {/* <!-- Portfolio -->
-                        <!-- A picture (or even better, a gif) for each project -->
-                        <!-- A live link to the project -->
-                        <!-- A sub-page with technical details for each project -->
-                        <!-- Note: You can also provide high-level information about the project without users having to navigate to a new page. You can use a hovering feature or meaningful caption to accomplish this. --> */}
             <h1>Portfolio</h1>
             <div id="portfolio-div" className="row">
-
-              {/* <!-- weather dashboard project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>Weather Dashboard</h3>
-                  <button id="weather-dashboard-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="weather-dashboard-image" src={weatherDashboardImage} alt="weather-dashboard" />
-                </div>
-              </section>
-
-              {/* <!-- Eat dat burger project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>Eat Dat Burger</h3>
-                  <button id="eat-dat-burger-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="eat-dat-burger-image" src={eatDatBurgerImage} alt="eat-dat-burger" />
-                </div>
-              </section>
-
-              {/* <!-- Meal Budgeter Project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>Meal Budgeter</h3>
-                  <button id="meal-budgeter-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="meal-budgeter-image" src={mealBudgeterImage} alt="meal-budgeter" />
-                </div>
-              </section>
-
-              {/* <!-- work day scheduler project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>Work Day Scheduler</h3>
-                  <button id="work-scheduler-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="work-scheduler-image" src={workDaySchedulerImage} alt="work-day-scheduler" />
-                </div>
-              </section>
-
-              {/* <!-- note taker project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>Note Taker</h3>
-                  <button id="note-taker-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="note-taker-image" src={noteTakerImage} alt="note-taker" />
-                </div>
-              </section>
-
-              {/* <!-- toby time project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>Toby Time</h3>
-                  <button id="toby-time-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="toby-time-image" src={tobyTimeImage} alt="toby-time" />
-                </div>
-              </section>
-
-              {/* <!-- weatherwear project --> */}
-              <section className="row project-section">
-                <div className="col-md-4 project-section-title">
-                  <h3>WeatherWear</h3>
-                  <button id="weather-wear-button" className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
-                </div>
-                <div className="col-md-8 project-section-image">
-                  <img className="project-image" id="weather-wear-image" src={weatherWearImage} alt="weather-wear" />
-                </div>
-              </section>
-
+              {ProjectsData.map(project => {
+                return (
+                  <section className="row project-section">
+                    <div className="col-md-4 project-section-title">
+                      <h3>{project.title}</h3>
+                      <button id={`${project.name}-button`} className="project-button" data-toggle="modal" data-target="#project-modal">View Project Info</button>
+                    </div>
+                    <div className="col-md-8 project-section-image">
+                      <img className="project-image" id={`${project.name}-image`} src={project.image} alt={project.name} />
+                    </div>
+                  </section>
+                )
+              })}
             </div>
           </section>
         </div>
