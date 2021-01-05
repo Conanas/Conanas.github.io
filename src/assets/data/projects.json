@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Weather Dashboard",
+    "name": "weather-dashboard",
+    "image": "./screenshots/weather-dashboard/weather-dashboard-screenshot.png"
+  },
+  {
+    "title": "Eat-Dat-Burger",
+    "name": "eat-dat-burger",
+    "image": "./screenshots/eat-dat-burger/eat-dat-burger-screenshot.png"
+  },
+  {
+    "title": "Meal Budgeter",
+    "name": "meal-budgeter",
+    "image": "../screenshots/meal-budgeter/meal-budgeter-screenshot.png"
+  },
+  {
+    "title": "Note Taker",
+    "name": "note-taker",
+    "image": "../screenshots/note-taker/note-taker-screenshot.png"
+  },
+  {
+    "title": "Toby Time",
+    "name": "toby-time",
+    "image": "../screenshots/toby-time/toby-time-screenshot.png"
+  },
+  {
+    "title": "WeatherWear",
+    "name": "weather-wear",
+    "image": "../screenshots/weather-wear/weather-wear-screenshot.png"
+  }
+]
