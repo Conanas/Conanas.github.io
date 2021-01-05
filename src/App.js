@@ -12,17 +12,12 @@ function App() {
     <>
       <Header />
       <Navbar />
-
       <main>
-
         <About />
         <Projects />
         <Contact />
-
       </main>
-
       <Footer />
-
       <Modal />
     </>
   );

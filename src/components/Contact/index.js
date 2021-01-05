@@ -8,8 +8,6 @@ function Contact() {
         <div className="row">
           <section id="contact-section" className="page-section col">
             <a className="target-anchor" name="contact-section-target">&nbsp;</a>
-            {/* <!-- Contact --> */}
-            {/* <!-- Set up email messaging form --> */}
             <h1>Contact</h1>
             <form action="mailto:someone@example.com" method="post" enctype="text/plain">
               <label className="contact-label" for="name"> Name:</label><br />
