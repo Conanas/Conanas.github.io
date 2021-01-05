@@ -125,33 +125,9 @@ h5 {
     color: var(--social-icon-color-hover) !important;
 }
 
-#portfolio-button {
-    background-color: var(--home-portfolio-button-bg);
-    color: var(--home-portfolio-button-color);
-    border: 1px solid var(--home-portfolio-button-border);
-    padding: 1em;
-    font-size: 1.5em;
-}
-
-#portfolio-button:hover {
-    background-color: var(--home-portfolio-button-bg-hover);
-    color: var(--home-portfolio-button-color-hover);
-    border: 1px solid var(--home-portfolio-button-border-hover);
-}
-
 .font-awesome {
     color: var(--home-color);
     font-size: 2em;
-}
-
-#resume-button {
-    color: var(--resume-button-color);
-    margin-bottom: 20px;
-    font-size: 18px;
-}
-
-#resume-button:hover {
-    color: var(--resume-button-color-hover);
 }
 
 #contact-container {
@@ -163,83 +139,6 @@ h5 {
     position: absolute;
     left: 0px;
     top: -56px;
-}
-
-
-/* home section */
-
-.section-statement {
-    text-align: justify;
-    text-justify: inter-word;
-    font-size: 20px;
-}
-
-.home-contact-info {
-    margin: 20px auto;
-}
-
-.contact-info {
-    text-align: center;
-}
-
-
-/* contact section */
-
-#contact-section form {
-    width: 100%;
-}
-
-.contact-label {
-    margin-bottom: 4px;
-}
-
-.contact-input {
-    margin-bottom: 12px;
-}
-
-#contact-textarea {
-    width: 100%;
-}
-
-.contact-button {
-    background-color: var(--contact-button-bg);
-    color: var(--contact-button-color);
-    border: none;
-}
-
-
-/* modal */
-
-.modal-header {
-    background-color: var(--modal-header-bg);
-    color: var(--modal-header-color);
-}
-
-.modal-body {
-    background-color: var(--modal-body-bg);
-    color: var(--modal-body-color);
-}
-
-#modal-image {
-    width: 100%;
-    margin-bottom: 8px;
-}
-
-.modal-footer {
-    background-color: var(--modal-footer-bg);
-    color: var(--modal-footer-color);
-}
-
-.modal-link-button {
-    background-color: var(--modal-link-button-bg);
-    color: var(--modal-link-button-color);
-    border: 1px solid var(--modal-link-button-border);
-}
-
-#modal-close-button {
-    background-color: var(--modal-close-button-bg);
-    color: var(--modal-close-button-color);
-    border: none;
 }
 
 @media screen and (max-width: 476px) {
