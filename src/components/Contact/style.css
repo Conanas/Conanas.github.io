@@ -1,0 +1,21 @@
+#contact-section form {
+    width: 100%;
+}
+
+.contact-label {
+    margin-bottom: 4px;
+}
+
+.contact-input {
+    margin-bottom: 12px;
+}
+
+#contact-textarea {
+    width: 100%;
+}
+
+.contact-button {
+    background-color: var(--contact-button-bg);
+    color: var(--contact-button-color);
+    border: none;
+}
