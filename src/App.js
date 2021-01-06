@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Home/';
 import Header from './components/Header/';
 import About from './components/About/';
-import Projects from './components/Projects/';
+import Products from './components/Products/';
 import Contact from './components/Contact/';
 import Footer from './components/Footer/';
 import Modal from './components/Modal/';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="wrapper">
       <Header />
-      <main>
+      <main className="d-flex align-items-center">
         <Router>
           <Switch>
             <Route exact path='/'>
@@ -23,7 +23,7 @@ function App() {
               <About />
             </Route>
             <Route exact path='/products'>
-              <Projects />
+              <Products />
             </Route>
             <Route exact path='/contact'>
               <Contact />
