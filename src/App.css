@@ -1,4 +1,8 @@
 :root {
+    --primary: #263238;
+    --secondary: #ef5350;
+    --light-grey: #F5F5F6;
+    --dark-grey: #E1E2E1;
     /* pale-grey-blue theme */
     --lightest: #D7D5D7;
     --light: #ACACAF;
@@ -79,9 +83,12 @@ body {
     font-family: 'Hind', sans-serif;
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 40px;
+.wrapper {
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1,
@@ -102,14 +109,6 @@ h5 {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-.nav-link {
-    color: var(--navbar-color) !important;
-}
-
-.nav-link:hover {
-    color: var(--navbar-color-hover) !important;
 }
 
 #links-div {
