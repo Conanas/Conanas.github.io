@@ -1,32 +1,26 @@
 [
   {
-    "title": "Weather Dashboard",
-    "name": "weather-dashboard",
-    "image": "./screenshots/weather-dashboard/weather-dashboard-screenshot.png"
-  },
-  {
     "title": "Eat-Dat-Burger",
     "name": "eat-dat-burger",
-    "image": "./screenshots/eat-dat-burger/eat-dat-burger-screenshot.png"
+    "image": "./screenshots/eat-dat-burger/eat-dat-burger-screenshot.png",
+    "quick_description": "A product for burger lovers to produce a list of burgers they desire to eat and to add those burgers to another after the desired burger has been devoured."
   },
   {
     "title": "Meal Budgeter",
     "name": "meal-budgeter",
-    "image": "../screenshots/meal-budgeter/meal-budgeter-screenshot.png"
-  },
-  {
-    "title": "Note Taker",
-    "name": "note-taker",
-    "image": "../screenshots/note-taker/note-taker-screenshot.png"
+    "image": "../screenshots/meal-budgeter/meal-budgeter-screenshot.png",
+    "quick_description": "A product designed for the Victorian 2020 Covid-19 lockdown that allows users to save money on their food."
   },
   {
     "title": "Toby Time",
     "name": "toby-time",
-    "image": "../screenshots/toby-time/toby-time-screenshot.png"
+    "image": "../screenshots/toby-time/toby-time-screenshot.png",
+    "quick_description": "A workout timer product that allows user to keep track of their reps and sets of exercises."
   },
   {
     "title": "WeatherWear",
     "name": "weather-wear",
-    "image": "../screenshots/weather-wear/weather-wear-screenshot.png"
+    "image": "../screenshots/weather-wear/weather-wear-screenshot.png",
+    "quick_description": "A web product that searches for local places to eat and tells them what to wear according to the weather in order to keep warm and dry."
   }
 ]
