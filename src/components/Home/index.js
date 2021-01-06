@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Home() {
   return (
-    <section className="home-section container">
+    <section className="container">
       <div className="row">
         <div className="col d-flex flex-column">
           <h1>Thomas Haigh</h1>
