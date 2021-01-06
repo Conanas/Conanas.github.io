@@ -1,3 +1,8 @@
+.contact-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 #contact-section form {
     width: 100%;
 }
