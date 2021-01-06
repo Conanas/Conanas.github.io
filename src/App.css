@@ -36,6 +36,8 @@ body {
 main {
     min-height: 100%;
     flex: 1;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 h1,
