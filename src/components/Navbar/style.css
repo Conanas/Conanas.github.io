@@ -1,7 +1,12 @@
+nav {
+  background-color: var(--primary);
+  color: white;
+}
+
 .nav-link {
-    color: var(--navbar-color) !important;
+  color: var(--navbar-color) !important;
 }
 
 .nav-link:hover {
-    color: var(--navbar-color-hover) !important;
+  color: var(--navbar-color-hover) !important;
 }
