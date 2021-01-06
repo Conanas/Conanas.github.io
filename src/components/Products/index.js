@@ -5,7 +5,7 @@ import ProjectsData from '../../assets/data/projects.json';
 
 export default function Products() {
   return (
-    <div className="container products-section">
+    <div className="container">
       <div className="row">
         <section className="col">
           <h1>Products</h1>
