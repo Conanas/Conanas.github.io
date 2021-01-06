@@ -1,0 +1,20 @@
+.products-section {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.card {
+    width: 18rem;
+    box-shadow: -5px 5px 5px 5px var(--primary-light);
+}
+
+.card-body {
+    background-color: var(--light-grey);
+}
+
+.btn {
+    margin-top: auto;
+    background-color: var(--secondary);
+    color: white;
+    border: 1px solid white;
+}
