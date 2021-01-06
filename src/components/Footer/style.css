@@ -1,12 +1,12 @@
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: var(--darkest);
+    background-color: var(--primary);
     color: white;
+    margin-top: auto;
 }
 
 footer .links-div-anchor {
-    font-size: 32px;
     margin-right: 16px;
     color: white;
 }
