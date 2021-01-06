@@ -24,7 +24,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <span class="navbar-text">
+        <span className="navbar-text">
           Thomas Haigh
           </span>
       </div>
