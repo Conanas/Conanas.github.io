@@ -3,25 +3,27 @@ import './style.css';
 
 function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand bg-dark navbar-dark">
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="container collapse navbar-collapse" id="collapsibleNavbar">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link" href="#home-section">Home</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#about-section-target">About</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#portfolio-section-target">Portfolio</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#contact-section-target">Contact</a>
-          </li>
-        </ul>
+    <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+      <div className="container">
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="/">Home</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/about">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/products">Products</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   )
