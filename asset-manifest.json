@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cd89f5c.chunk.css",
-    "main.js": "/static/js/main.e4828666.chunk.js",
-    "main.js.map": "/static/js/main.e4828666.chunk.js.map",
+    "main.css": "/static/css/main.6b9632ab.chunk.css",
+    "main.js": "/static/js/main.14ca6619.chunk.js",
+    "main.js.map": "/static/js/main.14ca6619.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c073d46d.js",
     "runtime-main.js.map": "/static/js/runtime-main.c073d46d.js.map",
     "static/js/2.d110d161.chunk.js": "/static/js/2.d110d161.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.3137b70a.chunk.js": "/static/js/3.3137b70a.chunk.js",
     "static/js/3.3137b70a.chunk.js.map": "/static/js/3.3137b70a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3cd89f5c.chunk.css.map": "/static/css/main.3cd89f5c.chunk.css.map",
+    "static/css/main.6b9632ab.chunk.css.map": "/static/css/main.6b9632ab.chunk.css.map",
     "static/js/2.d110d161.chunk.js.LICENSE.txt": "/static/js/2.d110d161.chunk.js.LICENSE.txt",
     "static/media/tom-portfolio-photo.5852c21b.jpg": "/static/media/tom-portfolio-photo.5852c21b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c073d46d.js",
     "static/js/2.d110d161.chunk.js",
-    "static/css/main.3cd89f5c.chunk.css",
-    "static/js/main.e4828666.chunk.js"
+    "static/css/main.6b9632ab.chunk.css",
+    "static/js/main.14ca6619.chunk.js"
   ]
 }
