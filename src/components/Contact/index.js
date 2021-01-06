@@ -3,7 +3,7 @@ import './style.css';
 
 function Contact() {
   return (
-    <div className="container contact-section">
+    <div className="container">
       <div className="row">
         <section className="col">
           <h1>Contact</h1>
@@ -15,7 +15,7 @@ function Contact() {
             <input className="contact-input" type="text" name="mail" /><br />
 
             <label className="contact-label" for="comment">Comment:</label><br />
-            <textarea name="comment" id="contact-textarea" rows="10"></textarea>
+            <textarea name="comment" id="contact-textarea" rows="6"></textarea>
 
             <br /><br />
 
