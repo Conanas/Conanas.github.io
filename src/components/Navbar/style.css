@@ -1,0 +1,7 @@
+.nav-link {
+    color: var(--navbar-color) !important;
+}
+
+.nav-link:hover {
+    color: var(--navbar-color-hover) !important;
+}
