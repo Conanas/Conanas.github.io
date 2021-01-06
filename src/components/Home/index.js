@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <section className="home-section container">
       <div className="row">
-        <div className="col">
+        <div className="col d-flex flex-column">
           <h1>Thomas Haigh</h1>
           <p className="brand-statement">
             Full-stack web developer with JavaScript, HTML, CSS, React.js, Express.js,
