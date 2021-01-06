@@ -6,7 +6,6 @@ import About from './components/About/';
 import Products from './components/Products/';
 import Contact from './components/Contact/';
 import Footer from './components/Footer/';
-import Modal from './components/Modal/';
 import './App.css';
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
         </Router>
       </main>
       <Footer />
-      <Modal />
     </div>
   );
 }
