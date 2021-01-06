@@ -3,24 +3,87 @@
     "title": "Eat-Dat-Burger",
     "name": "eat-dat-burger",
     "image": "./screenshots/eat-dat-burger/eat-dat-burger-screenshot.png",
-    "quick_description": "A product for burger lovers to produce a list of burgers they desire to eat and to add those burgers to another after the desired burger has been devoured."
+    "quick_description": "A product for burger lovers to produce a list of burgers they desire to eat and to add those burgers to another after the desired burger has been devoured.",
+    "description": [
+      "Ever wanted to have a list of burgers that you were planning on eating in the future? Then Eat Dat Burger let's you do exactly that. Clients enter any burger they want into a SQL database and when the client eats that burger then the database can be updated and the burger is placed into a list of burgers that have been devoured by the client.",
+      "Eat Dat Burger is an exercise in full-stack web development which involves a fully responsive HTML, CSS and JavaScript front-end and a Node.js, Express.js mySQL backend. A single page dynamically generated web app that uses templating with Handlebars.js."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "javaScript",
+      "jQuery",
+      "Node.js",
+      "Handlebars.js",
+      "mySQL",
+      "Express.js"
+    ],
+    "live_link": "https://mysql-eat-dat-burger.herokuapp.com/",
+    "github_repo": "https://github.com/Conanas/eat-dat-burger"
   },
   {
     "title": "Meal Budgeter",
     "name": "meal-budgeter",
     "image": "../screenshots/meal-budgeter/meal-budgeter-screenshot.png",
-    "quick_description": "A product designed for the Victorian 2020 Covid-19 lockdown that allows users to save money on their food."
+    "quick_description": "A product designed for the Victorian 2020 Covid-19 lockdown that allows users to save money on their food.",
+    "description": [
+      "Meal Budgeter is an online community generated resource for people who are on a budget and are looking for low cost meals to make at home. The recipes on Meal Budgeter are created by users who have money saving recipes to share.",
+      "The recipes found on Meal Budgeter are created by the users and the cost of each recipe is automatically calculated by the application. Users can easily enter a new recipe into the database with the easy to use create-a-recipe form. As users enter the ingredients into their recipe then the price of the ingredients are automatically retrieved from a third party API database."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "javaScript",
+      "jQuery",
+      "Node.js",
+      "Handlebars.js",
+      "Express.js",
+      "Sequelize"
+    ],
+    "live_link": "https://arcane-tundra-81761.herokuapp.com/",
+    "github_repo": "https://github.com/willwoodburn1/Group-Project-2"
   },
   {
     "title": "Toby Time",
     "name": "toby-time",
     "image": "../screenshots/toby-time/toby-time-screenshot.png",
-    "quick_description": "A workout timer product that allows user to keep track of their reps and sets of exercises."
+    "quick_description": "A workout timer product that allows user to keep track of their reps and sets of exercises.",
+    "description": [
+      "Like to workout? Like Cats? Toby Time is a set and rep tracker for your workouts and upon completion you are rewarded with a picture of my cat Toby. Simply enter the reps, rest time, sets and break time and start doing your press-ups, pull-ups or situps etc... You can save your workouts parameters to local storage to be reloaded for future use.",
+      "Fully responsive with the use of bootstrap, a single HTML page is styled with CSS and rendered with javaScript and jQuery. Includes the use of sounds to indicate when the rest or break period is about to end."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "javaScript",
+      "jQuery"
+    ],
+    "live_link": "https://conanas.github.io/toby-time/",
+    "github_repo": "https://github.com/Conanas/toby-time"
   },
   {
     "title": "WeatherWear",
     "name": "weather-wear",
     "image": "../screenshots/weather-wear/weather-wear-screenshot.png",
-    "quick_description": "A web product that searches for local places to eat and tells them what to wear according to the weather in order to keep warm and dry."
+    "quick_description": "A web product that searches for local places to eat and tells them what to wear according to the weather in order to keep warm and dry.",
+    "description": [
+      "WeatherWear is a single paged, fully responsive javaScript and jQuery rendered HTML web app styled with CSS that aids users plan what to wear depending on the weather forecast for a user selected time range. The user is presented with going out and coming home times that are generated live with the use of moment.js. After the location and times are selected WeatherWear will show the user what they are suggested to wear based on the current temperature, uv index and wind speed.",
+      "As well as suggesting what users should wear WeatherWear has functionality for users to look up local places to eat whilst they are out. The generated places-to-eat list can be filtered by cuisine type and sorted by rating and by price."
+    ],
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Materialize",
+      "javaScript",
+      "jQuery",
+      "moment.js",
+      "weatherbit.io",
+      "zomato.com"
+    ],
+    "live_link": "https://lionhatt.github.io/project-WeatherWear/",
+    "github_repo": "https://github.com/lionhatt/project-WeatherWear"
   }
 ]
