@@ -1,8 +1,9 @@
 :root {
     --primary: #263238;
-    --secondary: #ef5350;
-    --light-grey: #F5F5F6;
-    --dark-grey: #E1E2E1;
+    --primary-light: #4f5b62;
+    --secondary: #0077c2;
+    --light-grey: #ffffff;
+    --dark-grey: #eeeeee;
     /* pale-grey-blue theme */
     --lightest: #D7D5D7;
     --light: #ACACAF;
@@ -81,14 +82,19 @@ font-family: 'Roboto', sans-serif; */
 
 body {
     font-family: 'Hind', sans-serif;
+    background-color: var(--dark-grey);
+    color: black;
 }
 
 .wrapper {
-    height: 100%;
     min-height: 100vh;
-    margin: 0;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    min-height: 100%;
+    flex: 1;
 }
 
 h1,
@@ -98,17 +104,6 @@ h4,
 h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700 !important;
-}
-
-.page-section {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 #links-div {
