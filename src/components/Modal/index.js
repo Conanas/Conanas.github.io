@@ -16,16 +16,16 @@ function Modal({ product }) {
             </div>
             <div id="project-description">
               <h4>Description</h4>
-              {product.description.map(item => {
+              {product.description.map((item, index) => {
                 return (
-                  <p>{item}</p>
+                  <p key={index}>{item}</p>
                 )
               })}
               <h4>Technologies used</h4>
               <ul>
-                {product.technologies.map(item => {
+                {product.technologies.map((item, index) => {
                   return (
-                    <li>{item}</li>
+                    <li key={index}>{item}</li>
                   )
                 })}
               </ul>
