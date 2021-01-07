@@ -4,12 +4,12 @@
 }
 
 .card-body {
-    background-color: var(--light-grey);
+    background-color: var(--background);
 }
 
 .btn {
     margin-top: auto;
     background-color: var(--secondary);
-    color: white;
-    border: 1px solid white;
+    color: var(--on-secondary);
+    border: 1px solid var(--on-secondary);
 }
