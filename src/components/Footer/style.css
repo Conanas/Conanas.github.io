@@ -10,3 +10,15 @@ footer .links-div-anchor {
     margin-right: 16px;
     color: white;
 }
+
+.social-icon {
+    color: var(--on-primary);
+}
+
+.social-icon:hover {
+    color: var(--secondary-light);
+}
+
+.font-awesome {
+    font-size: 2em;
+}
