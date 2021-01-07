@@ -1,17 +1,4 @@
 #home-container {
     background-color:var(--primary);
-    color: white;
-}
-
-.home-contact-info {
-    margin: 20px auto;
-}
-
-#resume-button {
-    color: var(--resume-button-color);
-    font-size: 18px;
-}
-
-#resume-button:hover {
-    color: var(--resume-button-color-hover);
+    color: var(--on-primary);
 }
