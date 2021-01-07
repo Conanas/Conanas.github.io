@@ -1,11 +1,15 @@
 .modal-header {
-    background-color: var(--modal-header-bg);
-    color: var(--modal-header-color);
+    background-color: var(--primary);
+    color: var(--on-primary);
+}
+
+.close {
+    color: var(--on-primary)
 }
 
 .modal-body {
-    background-color: var(--modal-body-bg);
-    color: var(--modal-body-color);
+    background-color: var(--surface);
+    color: var(--on-surface);
 }
 
 #modal-image {
@@ -14,18 +18,19 @@
 }
 
 .modal-footer {
-    background-color: var(--modal-footer-bg);
-    color: var(--modal-footer-color);
+    background-color: var(--primary);
+    color: var(--on-primary]);
 }
 
 .modal-link-button {
-    background-color: var(--modal-link-button-bg);
-    color: var(--modal-link-button-color);
-    border: 1px solid var(--modal-link-button-border);
+    background-color: var(--secondary);
+    color: var(--on-secondary);
+    border: 1px solid var(--primary);
+    margin-right: 0.5em;
 }
 
 #modal-close-button {
-    background-color: var(--modal-close-button-bg);
-    color: var(--modal-close-button-color);
+    background-color: var(--surface);
+    color: var(--on-surface);
     border: none;
 }
