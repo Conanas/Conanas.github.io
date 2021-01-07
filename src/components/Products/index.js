@@ -5,7 +5,7 @@ import Modal from '../Modal/';
 
 
 export default function Products() {
-  const [product, setProduct] = useState(ProjectsData);
+  const [product] = useState(ProjectsData);
   const [currentProduct, setCurrentProduct] = useState(0);
 
   return (
