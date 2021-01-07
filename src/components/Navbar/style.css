@@ -4,9 +4,9 @@ nav {
 }
 
 .nav-link {
-  color: var(--navbar-color) !important;
+  color: var(--on-primary) !important;
 }
 
 .nav-link:hover {
-  color: var(--navbar-color-hover) !important;
+  color: var(--secondary-light) !important;
 }
