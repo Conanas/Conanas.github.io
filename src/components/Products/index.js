@@ -5,12 +5,8 @@ import Modal from '../Modal/';
 
 
 export default function Products() {
-  // const [product, updateProduct] = useState();
-
-  // const handleClick = (project) => {
-  //   updateProduct(project);
-  //   console.log(product)
-  // }
+  const [product, setProduct] = useState(ProjectsData);
+  const [currentProduct, setCurrentProduct] = useState(0);
 
   return (
     <>
@@ -19,9 +15,9 @@ export default function Products() {
           <section className="col">
             <h1>Products</h1>
             <div className="card-deck d-flex flex-lg-row flex-column">
-              {ProjectsData.map(project => {
+              {product.map((project, index) => {
                 return (
-                  <div className="card">
+                  <div className="card" key={index}>
                     <img className="card-img-top" src={project.image} alt={project.name} />
                     <div className="card-body d-flex flex-column">
                       <h5 className="card-title">{project.title}</h5>
@@ -29,9 +25,10 @@ export default function Products() {
                       <button
                         className="btn"
                         id={`${project.name}-button`}
+                        value={index}
                         data-toggle="modal"
                         data-target="#project-modal"
-                      // onClick={handleClick(project)}
+                        onClick={(e) => setCurrentProduct(e.target.value)}
                       >
                         View Project Info
                       </button>
@@ -43,7 +40,7 @@ export default function Products() {
           </section>
         </div>
       </div>
-      <Modal product={ProjectsData[0]} />
+      <Modal product={product[currentProduct]} />
     </>
   )
 }
