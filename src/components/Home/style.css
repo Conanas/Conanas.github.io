@@ -1,11 +1,5 @@
-body {
-    animation-name: hide-scroll;
-    animation-duration: 1s;
-}
-
 .brand-statement {
-    animation-name: brand-statement-intro;
-    animation-duration: 1s;
+    animation: brand-statement-intro 1.2s;
 }
 
 @keyframes brand-statement-intro {

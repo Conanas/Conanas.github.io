@@ -7,7 +7,7 @@
 }
 
 .about-statement {
-    animation: about-statement-intro 1s;
+    animation: about-statement-intro 1.2s;
 }
 
 @keyframes img-intro {
