@@ -4,18 +4,37 @@
 
 .contact-label {
     margin-bottom: 0.25em;
+    animation: label-intro 1s;
 }
 
 .contact-input {
     margin-bottom: 0.75em;
+    animation: input-intro 1s;
 }
 
 #contact-textarea {
     width: 100%;
+    animation: input-intro 1s;
 }
 
 .contact-button {
     background-color: var(--secondary);
     color:var(--on-secondary);
     margin-right: 1em;
+    animation: button-intro 1s;
+}
+
+@keyframes label-intro {
+    from {transform: translateX(-600px)}
+    to {transform: translateX(0px)}
+}
+
+@keyframes input-intro {
+    from {transform: translateX(1400px)}
+    to {transform: translateX(0px)}
+}
+
+@keyframes button-intro {
+    from {transform: translateY(400px)}
+    to {transform: translateY(0px)}
 }

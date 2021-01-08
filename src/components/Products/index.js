@@ -13,11 +13,11 @@ export default function Products() {
       <div className="container">
         <div className="row">
           <section className="col">
-            <h1>Products</h1>
+            <h1 className="section-heading">Products</h1>
             <div className="card-deck d-flex flex-lg-row flex-column">
               {product.map((project, index) => {
                 return (
-                  <div className="card" key={index}>
+                  <div className={`card + card${index}`} key={index}>
                     <img className="card-img-top" src={project.image} alt={project.name} />
                     <div className="card-body d-flex flex-column">
                       <h5 className="card-title">{project.title}</h5>

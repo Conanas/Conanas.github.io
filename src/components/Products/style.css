@@ -3,6 +3,22 @@
     box-shadow: -5px 5px 5px 5px var(--primary-light);
 }
 
+.card0 {
+    animation: card-intro 0.7s;
+}
+
+.card1 {
+    animation: card-intro 0.8s;
+}
+
+.card2 {
+    animation: card-intro 0.9s;
+}
+
+.card3 {
+    animation: card-intro 1s;
+}
+
 .card-body {
     background-color: var(--background);
 }
@@ -12,4 +28,9 @@
     background-color: var(--secondary);
     color: var(--on-secondary);
     border: 1px solid var(--on-secondary);
+}
+
+@keyframes card-intro {
+    from {transform: translateY(800px)}
+    to {transform: translateY(0px)}
 }

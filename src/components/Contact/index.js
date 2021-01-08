@@ -6,7 +6,7 @@ function Contact() {
     <div className="container">
       <div className="row">
         <section className="col">
-          <h1>Contact</h1>
+          <h1 className="section-heading">Contact</h1>
           <form action="mailto:someone@example.com" method="post" encType="text/plain">
             <label className="contact-label" htmlFor="name"> Name:</label><br />
             <input className="contact-input" type="text" name="name" /><br />

@@ -1,0 +1,14 @@
+body {
+    animation-name: hide-scroll;
+    animation-duration: 1s;
+}
+
+.brand-statement {
+    animation-name: brand-statement-intro;
+    animation-duration: 1s;
+}
+
+@keyframes brand-statement-intro {
+    from {transform: translateX(1400px)}
+    to {transform: translateX(0px)}
+}

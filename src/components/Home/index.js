@@ -6,7 +6,7 @@ export default function Home() {
     <section className="container">
       <div className="row">
         <div className="col d-flex flex-column">
-          <h1>Thomas Haigh</h1>
+          <h1 className="section-heading">Thomas Haigh</h1>
           <p className="brand-statement">
             Full-stack web developer with JavaScript, HTML, CSS, React.js, Express.js,
             Node.js, MongoDB, MySQL, ORM, Web API and responsive web design skills
