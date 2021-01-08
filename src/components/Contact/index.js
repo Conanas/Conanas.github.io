@@ -7,14 +7,14 @@ function Contact() {
       <div className="row">
         <section className="col">
           <h1>Contact</h1>
-          <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-            <label className="contact-label" for="name"> Name:</label><br />
+          <form action="mailto:someone@example.com" method="post" encType="text/plain">
+            <label className="contact-label" htmlFor="name"> Name:</label><br />
             <input className="contact-input" type="text" name="name" /><br />
 
-            <label className="contact-label" for="mail">E-mail:</label><br />
+            <label className="contact-label" htmlFor="mail">E-mail:</label><br />
             <input className="contact-input" type="text" name="mail" /><br />
 
-            <label className="contact-label" for="comment">Comment:</label><br />
+            <label className="contact-label" htmlFor="comment">Comment:</label><br />
             <textarea name="comment" id="contact-textarea" rows="6"></textarea>
 
             <br /><br />
