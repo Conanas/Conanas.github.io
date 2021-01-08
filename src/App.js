@@ -14,20 +14,20 @@ function App() {
       <Header />
       <main className="d-flex align-items-center">
         <Router basename={process.env.PUBLIC_URL}>
-          <Switch>
-            <Route exact path='/'>
-              <Home />
-            </Route>
-            <Route exact path='/about'>
-              <About />
-            </Route>
-            <Route exact path='/products'>
-              <Products />
-            </Route>
-            <Route exact path='/contact'>
-              <Contact />
-            </Route>
-          </Switch>
+          {/* <Switch> */}
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/products'>
+            <Products />
+          </Route>
+          <Route exact path='/contact'>
+            <Contact />
+          </Route>
+          {/* </Switch> */}
         </Router>
       </main>
       <Footer />
