@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './components/Home/';
 import Header from './components/Header/';
 import About from './components/About/';
@@ -13,7 +13,7 @@ function App() {
     <div className="wrapper">
       <Header />
       <main className="d-flex align-items-center">
-        <Router >
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path='/'>
               <Home />
