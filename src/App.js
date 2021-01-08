@@ -13,7 +13,7 @@ function App() {
     <div className="wrapper">
       <Header />
       <main className="d-flex align-items-center">
-        <Router basename={"/"}>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path='/'>
               <Home />
