@@ -19,8 +19,8 @@ function Contact() {
 
             <br /><br />
 
-            <input className="contact-button submit-button" type="submit" value="Send" />
-            <input className="contact-button reset-button" type="reset" value="Reset" />
+            <input className="btn contact-button submit-button" type="submit" value="Send" />
+            <input className="btn contact-button reset-button" type="reset" value="Reset" />
           </form>
         </section>
       </div>
