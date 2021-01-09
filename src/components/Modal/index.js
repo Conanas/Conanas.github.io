@@ -31,14 +31,14 @@ function Modal({ product }) {
               </ul>
             </div>
             <a href={product.live_link} target="_blank" rel="noreferrer">
-              <input className="modal-link-button" type="button" value="View Live Project" />
+              <input className="btn modal-link-button" type="button" value="View Live Project" />
             </a>
             <a href={product.github_repo} target="_blank" rel="noreferrer">
-              <input className="modal-link-button" type="button" value="View GitHub Repository" />
+              <input className="btn modal-link-button" type="button" value="View GitHub Repository" />
             </a>
           </div>
           <div className="modal-footer">
-            <button type="button" id="modal-close-button" data-dismiss="modal">Close</button>
+            <button className="btn" type="button" id="modal-close-button" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
