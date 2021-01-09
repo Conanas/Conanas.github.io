@@ -8,7 +8,7 @@ function Footer() {
         <div className="row d-flex flex-sm-row-reverse">
           <div className="col-sm-6 d-flex justify-content-sm-end align-items-center">
             <a className="links-div-anchor" href="https://drive.google.com/file/d/1z3gjUkCu5Dn3i_F7ltW7irqJMeowSegt/view?usp=sharing" target="_blank" rel="noreferrer">
-              <i className="fas fa-external-link-alt"></i> Resume
+              <i className="fas fa-external-link-alt social-icon"></i> Resume
             </a>
             <a className="links-div-anchor" href="https://www.linkedin.com/in/thomas-haigh-5960b81aa/" target="_blank" rel="noreferrer">
               <i className="fab fa-linkedin font-awesome social-icon"></i>

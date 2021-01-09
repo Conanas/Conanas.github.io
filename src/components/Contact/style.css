@@ -45,11 +45,11 @@
 }
 
 .submit-button {
-    animation: button-intro 0.8s;
+    animation: button-intro 1s;
 }
 
 .reset-button {
-    animation: button-intro 1s;
+    animation: button-intro 1.2s;
 }
 
 
