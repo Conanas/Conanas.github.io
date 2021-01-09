@@ -23,13 +23,6 @@
     background-color: var(--background);
 }
 
-.btn {
-    margin-top: auto;
-    background-color: var(--secondary);
-    color: var(--on-secondary);
-    border: 1px solid var(--on-secondary);
-}
-
 @keyframes card-intro {
     from {transform: translateY(800px)}
     to {transform: translateY(0px)}
