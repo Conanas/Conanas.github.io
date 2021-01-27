@@ -1,7 +1,6 @@
 import React from 'react';
 import Heading from '../../components/Heading/';
 import Statement from '../../components/Statement/';
-import './style.css';
 
 export default function Home() {
   return (
