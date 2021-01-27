@@ -2,7 +2,6 @@ import React from "react";
 import Heading from '../../components/Heading/';
 import Statement from '../../components/Statement/';
 import Image from '../../components/Image/';
-import "./style.css";
 
 export default function About() {
   return (

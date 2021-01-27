@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import portfolioImage from "../../assets/portfolio-img/tom-portfolio-photo.jpg";
+import './style.css';
 
 export default function Image() {
 
