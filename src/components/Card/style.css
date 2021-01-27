@@ -1,0 +1,8 @@
+.card {
+    width: 18rem;
+    box-shadow: -5px 5px 5px 5px var(--primary-light);
+}
+
+.card-body {
+    background-color: var(--background);
+}

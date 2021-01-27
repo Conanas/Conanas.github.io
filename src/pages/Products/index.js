@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import "./style.css";
 import ProjectsData from '../../assets/data/projects.json';
 import Modal from '../../components/Modal/';
-
+import Card from '../../components/Card/';
 
 export default function Products() {
   const [product] = useState(ProjectsData);
@@ -17,23 +16,7 @@ export default function Products() {
             <div className="card-deck d-flex flex-lg-row flex-column">
               {product.map((project, index) => {
                 return (
-                  <div className={`card + card${index}`} key={index}>
-                    <img className="card-img-top" src={project.image} alt={project.name} />
-                    <div className="card-body d-flex flex-column">
-                      <h5 className="card-title">{project.title}</h5>
-                      <p className="card-text">{project.quick_description}</p>
-                      <button
-                        className="btn"
-                        id={`${project.name}-button`}
-                        value={index}
-                        data-toggle="modal"
-                        data-target="#project-modal"
-                        onClick={(e) => setCurrentProduct(e.target.value)}
-                      >
-                        View Project Info
-                      </button>
-                    </div>
-                  </div>
+                  <Card project={project} index={index} setCurrentProduct={setCurrentProduct}></Card>
                 )
               })}
             </div>
