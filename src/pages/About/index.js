@@ -1,16 +1,16 @@
 import React from "react";
 import Heading from '../../components/Heading/';
 import Statement from '../../components/Statement/';
+import Image from '../../components/Image/';
 import "./style.css";
-import portfolioImage from "../../assets/portfolio-img/tom-portfolio-photo.jpg";
 
-function About() {
+export default function About() {
   return (
     <div className="container">
       <div className="row">
         <section className="col">
           <Heading>About</Heading>
-          <img className="float-left" id="about-img" src={portfolioImage} alt="portfolio" />
+          <Image />
           <Statement className="about-statement">
             <p>
               Originally from the Peak District National Park in the UK, I came to Australia in 2010 and I became an Australian citizen in 2018. It is in the Peak District I got into rock climbing and I continue to climb because not only do I enjoy moving on rock but
@@ -25,5 +25,3 @@ function About() {
     </div>
   )
 }
-
-export default About
