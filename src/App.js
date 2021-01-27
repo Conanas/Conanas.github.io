@@ -10,28 +10,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-      <main className="d-flex align-items-center">
-        <Router basename={""}>
+    <Router basename={""}>
+      <div className="wrapper">
+        <Header />
+        <main className="d-flex align-items-center">
           <Switch>
-            <Route exact path='/'>
-              <Home />
-            </Route>
-            <Route exact path='/about'>
-              <About />
-            </Route>
-            <Route exact path='/products'>
-              <Products />
-            </Route>
-            <Route exact path='/contact'>
-              <Contact />
-            </Route>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/products' component={Products} />
+            <Route exact path='/contact' component={Contact} />
           </Switch>
-        </Router>
-      </main>
-      <Footer />
-    </div>
+        </main>
+        <Footer />
+      </div>
+    </Router >
   );
 }
 
