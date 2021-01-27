@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./style.css";
 import ProjectsData from '../../assets/data/projects.json';
-import Modal from '../Modal/';
+import Modal from '../../components/Modal/';
 
 
 export default function Products() {
