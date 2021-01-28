@@ -1,13 +1,30 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring';
+import Heading from '../../components/Heading';
 import './style.css';
 
-function Contact() {
+export default function Contact() {
+
+  const animation = useSpring({
+    from: {
+      transform: `translate(1400px)`,
+    },
+    to: {
+      transform: `translate(0px)`,
+    },
+    config: {
+      tension: 200
+    },
+    onStart: () => document.body.style.overflow = "hidden",
+    onRest: () => document.body.style.overflow = "auto"
+  })
+
   return (
     <div className="container">
       <div className="row">
         <section className="col">
-          <h1 className="section-heading">Contact</h1>
-          <form action="mailto:someone@example.com" method="post" encType="text/plain">
+          <Heading>Contact</Heading>
+          <animated.form action="mailto:someone@example.com" method="post" encType="text/plain" style={animation}>
             <label className="contact-label name-label" htmlFor="name"> Name:</label><br />
             <input className="contact-input name-input" type="text" name="name" /><br />
 
@@ -21,11 +38,9 @@ function Contact() {
 
             <input className="btn contact-button submit-button" type="submit" value="Send" />
             <input className="btn contact-button reset-button" type="reset" value="Reset" />
-          </form>
+          </animated.form>
         </section>
       </div>
     </div>
   )
 }
-
-export default Contact
