@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ProjectsData from '../../assets/data/projects.json';
 import Modal from '../../components/Modal/';
+import Heading from '../../components/Heading/';
 import Card from '../../components/Card/';
 
 export default function Products() {
@@ -12,7 +13,7 @@ export default function Products() {
       <div className="container">
         <div className="row">
           <section className="col">
-            <h1 className="section-heading">Products</h1>
+            <Heading>Products</Heading>
             <div className="card-deck d-flex flex-lg-row flex-column">
               {product.map((project, index) => {
                 return (
